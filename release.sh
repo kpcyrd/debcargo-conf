@@ -17,6 +17,6 @@ $DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" --changelog-ready "
 git diff -q -- "$PKGDIR_REL" || \
 abort 1 "cannot release, update resulted in git diffs to $PKGDIR_REL"
 
-git commit -m "Update package $PKG"
+git commit -m "Release package $PKG"
 
 ( cd "$BUILDDIR" && dpkg-buildpackage -d -S --no-sign )
