@@ -12,7 +12,7 @@ git add debian/changelog
 )
 
 rm -rf "$BUILDDIR"
-$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" --changelog-ready "$PKG"
+$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" --changelog-ready "$PKG" "$VER"
 
 git diff -q -- "$PKGDIR_REL" || \
 abort 1 "cannot release, update resulted in git diffs to $PKGDIR_REL"

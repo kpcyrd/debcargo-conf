@@ -10,7 +10,7 @@ if [ ! -d "$PKGDIR/debian" ]; then
 fi
 
 rm -rf "$BUILDDIR" && mkdir -p "$(dirname $BUILDDIR)"
-$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$PKG"
+$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$PKG" "$VER"
 
 if ! git diff -q -- "$PKGDIR_REL"; then
 	read -p "Update wrote some changes to $PKGDIR_REL, press enter to git diff..." x
