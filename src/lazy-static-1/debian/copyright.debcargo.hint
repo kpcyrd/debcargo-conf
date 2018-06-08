@@ -4,47 +4,48 @@ Upstream-Contact: Marvin Löbel <loebel.marvin@gmail.com>
 Source: https://github.com/rust-lang-nursery/lazy-static.rs
 
 Files: *
-Copyright: FIXME UNKNOWN Marvin Löbel <loebel.marvin@gmail.com>
+Copyright: FIXME (overlay) UNKNOWN Marvin Löbel <loebel.marvin@gmail.com>
 License: MIT or Apache-2.0
 Comment:
- FIXME: Since upstream copyright years are not available in Cargo.toml, they
- were extracted from the upstream Git repository. This may not be correct
- information so you should review and fix this before uploading to the archive.
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
 
 Files: ./LICENSE-MIT
 Copyright: 2010 The Rust Project Developers
-License: UNKNOWN; FIXME
+License: UNKNOWN; FIXME (overlay)
 Comment:
- FIXME: These notices are extracted from files. Please review them before
- uploading to the archive. Also delete this comment.
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: ./src/core_lazy.rs
 Copyright: 2016 lazy-static.rs Developers
-License: UNKNOWN; FIXME
+License: UNKNOWN; FIXME (overlay)
 Comment:
- FIXME: These notices are extracted from files. Please review them before
- uploading to the archive. Also delete this comment.
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: ./src/lazy.rs
 Copyright: 2016 lazy-static.rs Developers
-License: UNKNOWN; FIXME
+License: UNKNOWN; FIXME (overlay)
 Comment:
- FIXME: These notices are extracted from files. Please review them before
- uploading to the archive. Also delete this comment.
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: ./src/lib.rs
 Copyright: 2016 lazy-static.rs Developers
-License: UNKNOWN; FIXME
+License: UNKNOWN; FIXME (overlay)
 Comment:
- FIXME: These notices are extracted from files. Please review them before
- uploading to the archive. Also delete this comment.
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: ./src/nightly_lazy.rs
 Copyright: 2016 lazy-static.rs Developers
-License: UNKNOWN; FIXME
+License: UNKNOWN; FIXME (overlay)
 Comment:
- FIXME: These notices are extracted from files. Please review them before
- uploading to the archive. Also delete this comment.
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: debian/*
 Copyright: 2018 Ximin Luo <infinity0@debian.org>
