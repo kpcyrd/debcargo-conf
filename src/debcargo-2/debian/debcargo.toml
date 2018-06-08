@@ -1,0 +1,4 @@
+overlay = "."
+
+[source]
+build_depends = ["libssl-dev", "libcurl4-gnutls-dev"]
