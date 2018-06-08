@@ -5,8 +5,10 @@
 if [ ! -d "$PKGDIR/debian" ]; then
 	mkdir -p "$PKGDIR/debian"
 	echo 'overlay = "."' > "$PKGCFG"
-	touch "$PKGDIR/debian/copyright"
 	git add "$PKGDIR"
+fi
+if [ ! -f "$PKGDIR/debian/copyright" ]; then
+	echo "FIXME fill me in using ./copyright.debcargo.hint as a guide" > "$PKGDIR/debian/copyright"
 fi
 
 rm -rf "$BUILDDIR" && mkdir -p "$(dirname $BUILDDIR)"
