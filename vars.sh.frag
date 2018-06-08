@@ -2,8 +2,18 @@ set -e
 
 abort() { local x=$1; shift; echo >&2 "$0: abort: $@"; exit "$x"; }
 
-DEBCARGO_GIT=${DEBCARGO_GIT:-$PWD/../debcargo}
-DEBCARGO=${DEBCARGO:-$DEBCARGO_GIT/target/debug/debcargo}
+if [ -n "$DEBCARGO" ]; then
+	true
+elif which debcargo >/dev/null; then
+	DEBCARGO=$(which debcargo)
+elif [ -f "$HOME/.cargo/bin/debcargo" ]; then
+	DEBCARGO="$HOME/.cargo/bin/debcargo"
+else
+	abort 1 "debcargo not found, run \`cargo install debcargo\` or set DEBCARGO to point to it"
+fi
+
+test -x "$DEBCARGO" || abort 1 "debcargo found but not executable: $DEBCARGO"
+
 PKG="$1"
 VER="$2"
 
