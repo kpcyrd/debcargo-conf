@@ -22,3 +22,9 @@ PKGDIR_REL="src/$PKGNAME"
 PKGDIR="$PWD/$PKGDIR_REL"
 BUILDDIR="$PWD/build/$PKGNAME"
 PKGCFG="$PKGDIR/debian/debcargo.toml"
+
+mkdir -p "$(dirname $BUILDDIR)"
+
+if [ -z "$PKG" ]; then
+	abort 2 "Usage: $0 <package> [<version>]"
+fi

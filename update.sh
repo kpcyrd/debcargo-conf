@@ -11,10 +11,10 @@ if [ ! -f "$PKGDIR/debian/copyright" ]; then
 	echo "FIXME fill me in using ./copyright.debcargo.hint as a guide" > "$PKGDIR/debian/copyright"
 fi
 
-rm -rf "$BUILDDIR" && mkdir -p "$(dirname $BUILDDIR)"
+rm -rf "$BUILDDIR"
 $DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$PKG" "$VER"
 
-if ! git diff -q -- "$PKGDIR_REL"; then
+if ! git diff --quiet -- "$PKGDIR_REL"; then
 	read -p "Update wrote some changes to $PKGDIR_REL, press enter to git diff..." x
 	git diff -- "$PKGDIR_REL"
 fi
