@@ -1,0 +1,6 @@
+rust-bitflags-0.9 (0.9.1-1) unstable; urgency=medium
+
+  * Package bitflags 0.9.1 from crates.io using debcargo 2.0.0
+    (Closes: #895356)
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 09 Jun 2018 10:26:10 +0200
