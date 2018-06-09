@@ -11,7 +11,7 @@ if [ ! -f "$PKGDIR/debian/copyright" ]; then
 	echo "FIXME fill me in using ./copyright.debcargo.hint as a guide" > "$PKGDIR/debian/copyright"
 fi
 
-rm -rf "$BUILDDIR"
+rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-$PKG-$VER_$VER"*.orig.tar.*
 $DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$PKG" "$VER"
 
 if ! git diff --quiet -- "$PKGDIR_REL"; then
