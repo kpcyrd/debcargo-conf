@@ -17,7 +17,7 @@ test -x "$DEBCARGO" || abort 1 "debcargo found but not executable: $DEBCARGO"
 PKG="$1"
 VER="$2"
 
-PKGNAME=$($DEBCARGO deb-src-name "$PKG" || abort 1 "couldn't find package $PKG")
+PKGNAME=$($DEBCARGO deb-src-name "$PKG" "$VER" || abort 1 "couldn't find package $PKG")
 PKGDIR_REL="src/$PKGNAME"
 PKGDIR="$PWD/$PKGDIR_REL"
 BUILDDIR="$PWD/build/$PKGNAME"
