@@ -40,5 +40,7 @@ the top entry of debian/changelog, that will be dealt with in the next step.
 
 If satisfied with the output, run \`./release.sh $*\` to finalise your changes
 in the changelog and build a release-ready .dsc in build/. Assuming it runs
-successfully, you may \`dput\` the results afterwards.
+successfully, you may \`dput\` the results afterwards. If you're not a Debian
+Developer and are unable to upload, please don't run this script because it
+will commit the wrong thing to git; instead get a DD to run it on your behalf.
 eof
