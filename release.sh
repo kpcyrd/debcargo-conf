@@ -17,10 +17,10 @@ dch -r -D unstable ""
 git add debian/changelog
 )
 
-rm -rf "$BUILDDIR"
+rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-$PKG-$VER_$VER"*.orig.tar.*
 $DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" --changelog-ready "$PKG" "$VER"
 
-git diff -q -- "$PKGDIR_REL" || \
+git diff --exit-code -- "$PKGDIR_REL" || \
 abort 1 "cannot release, update resulted in git diffs to $PKGDIR_REL"
 
 git commit -m "Release package $PKG"
