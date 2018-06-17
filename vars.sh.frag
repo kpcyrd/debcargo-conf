@@ -13,11 +13,17 @@ else
 fi
 
 test -x "$DEBCARGO" || abort 1 "debcargo found but not executable: $DEBCARGO"
+dcver=$($DEBCARGO --version | sed -ne 's/debcargo //p')
+case $dcver in
+2.0.*)	abort 1 "unsupported debcargo version: $dcver";;
+2.*.*)	true;;
+*)	abort 1 "unsupported debcargo version: $dcver";;
+esac
 
 PKG="$1"
 VER="$2"
 
-PKGNAME=$($DEBCARGO deb-src-name "$PKG" "$VER" || abort 1 "couldn't find package $PKG")
+PKGNAME=$($DEBCARGO deb-src-name "$PKG" $VER || abort 1 "couldn't find package $PKG")
 PKGDIR_REL="src/$PKGNAME"
 PKGDIR="$PWD/$PKGDIR_REL"
 BUILDDIR="$PWD/build/$PKGNAME"
