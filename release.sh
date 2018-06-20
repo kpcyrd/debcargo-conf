@@ -17,7 +17,7 @@ dch -r -D unstable ""
 git add debian/changelog
 )
 
-rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-$PKG-$VER_$VER"*.orig.tar.*
+rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-${PKGNAME}_$VER"*.orig.tar.*
 $DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" --changelog-ready "$PKG" "$VER"
 
 git diff --exit-code -- "$PKGDIR_REL" || \
