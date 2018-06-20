@@ -17,6 +17,7 @@ $DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$PKG" "$VER"
 if ! git diff --quiet -- "$PKGDIR_REL"; then
 	read -p "Update wrote some changes to $PKGDIR_REL, press enter to git diff..." x
 	git diff -- "$PKGDIR_REL"
+	echo >&2 "-- end of git diff --"
 fi
 
 cat >&2 <<eof

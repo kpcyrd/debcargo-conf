@@ -21,7 +21,7 @@ rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-$PKG-$VER_$VER"*.orig.tar.*
 $DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" --changelog-ready "$PKG" "$VER"
 
 git diff --exit-code -- "$PKGDIR_REL" || \
-abort 1 "cannot release, update resulted in git diffs to $PKGDIR_REL"
+abort 1 "Release attempt resulted in git diffs to $PKGDIR_REL. Check it, git add or reset as appropriate, and re-run this again."
 
 git commit -m "Release package $PKG"
 
