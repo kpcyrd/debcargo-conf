@@ -7,6 +7,11 @@ Run ``./update.sh <rust-crate-name>`` and follow its instructions.
 
 (The above applies even for new Rust Debian packages.)
 
+If you must maintain an old version of a crate alongside the latest one, first
+make sure the latest version is packaged by doing all of the above, then run
+``./update.sh <rust-crate-name> <old-version>``, then copy anything relevant
+from the config directory for the latest version, to that for the old version.
+
 
 NEWS
 ====

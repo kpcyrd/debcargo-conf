@@ -1,6 +1,6 @@
 set -e
 
-abort() { local x=$1; shift; echo >&2 "$0: abort: $@"; exit "$x"; }
+abort() { local x=$1; shift; for i in "$@"; do echo >&2 "$0: abort: $i"; done; exit "$x"; }
 
 if [ -n "$DEBCARGO" ]; then
 	true
@@ -20,10 +20,11 @@ case $dcver in
 *)	abort 1 "unsupported debcargo version: $dcver";;
 esac
 
-PKG="$1"
+CRATE="$1"
 VER="$2"
 
-PKGNAME=$($DEBCARGO deb-src-name "$PKG" $VER || abort 1 "couldn't find package $PKG")
+PKGNAME=$($DEBCARGO deb-src-name "$CRATE" $VER || abort 1 "couldn't find crate $CRATE")
+PKGBASE=$($DEBCARGO deb-src-name "$CRATE" || abort 1 "couldn't find crate $CRATE")
 PKGDIR_REL="src/$PKGNAME"
 PKGDIR="$PWD/$PKGDIR_REL"
 BUILDDIR="$PWD/build/$PKGNAME"
@@ -31,6 +32,6 @@ PKGCFG="$PKGDIR/debian/debcargo.toml"
 
 mkdir -p "$(dirname $BUILDDIR)"
 
-if [ -z "$PKG" ]; then
-	abort 2 "Usage: $0 <package> [<version>]"
+if [ -z "$CRATE" ]; then
+	abort 2 "Usage: $0 <crate> [<version>]"
 fi

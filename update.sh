@@ -2,6 +2,12 @@
 
 . ./vars.sh.frag
 
+if [ -n "$VER" ]; then
+	if [ ! -d "$PWD/src/$PKGBASE" ]; then
+		abort 1 "Using crate $CRATE with version $VER but default-version is not packaged." \
+		"Package that first by running this script without the explicit version."
+	fi
+fi
 if [ ! -d "$PKGDIR/debian" ]; then
 	mkdir -p "$PKGDIR/debian"
 	echo 'overlay = "."' > "$PKGCFG"
@@ -10,9 +16,16 @@ fi
 if [ ! -f "$PKGDIR/debian/copyright" ]; then
 	echo "FIXME fill me in using ./copyright.debcargo.hint as a guide" > "$PKGDIR/debian/copyright"
 fi
+if [ -n "$VER" -a "$(sed -ne 's/^semver_suffix\s*=\s*//p' "$PKGCFG")" != "true" ]; then
+	if grep -q semver_suffix "$PKGCFG"; then
+		sed -i -e 's/^\(semver_suffix\s*=\s*\).*/\1true/' "$PKGCFG"
+	else
+		sed -i -e '1isemver_suffix = true' "$PKGCFG"
+	fi
+fi
 
 rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-${PKGNAME}_$VER"*.orig.tar.*
-$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$PKG" "$VER"
+$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$CRATE" "$VER"
 
 if ! git diff --quiet -- "$PKGDIR_REL"; then
 	read -p "Update wrote some changes to $PKGDIR_REL, press enter to git diff..." x
@@ -21,14 +34,19 @@ if ! git diff --quiet -- "$PKGDIR_REL"; then
 fi
 
 cat >&2 <<eof
-Automatic update of $PKG finished; now it's your turn to manually review it.
+Automatic update of $CRATE finished; now it's your turn to manually review it.
 
-Deal with any FIXMEs mentioned above, by editing the corresponding source files
-in $PKGDIR_REL - and NOT the build directory as mentioned. If a hint file is
-listed, indicated by (.), you should edit the *NON*-hint file, without the
-suffix .debcargo.hint, and git-add the hint file exactly as output by debcargo.
-So for example to deal with a FIXME in build/PKG/debian/copyright.debcargo.hint
-you should edit src/PKG/debian/copyright.
+Deal with any FIXMEs mentioned above, by editing any corresponding source files
+in $PKGDIR_REL. If a hint file is listed, indicated by (•), you should edit the
+*NON*-hint file, without the suffix .debcargo.hint, and git-add the hint file
+exactly as output by debcargo. So for example:
+
+to deal with a FIXME in:
+	    build/$PKGNAME/debian/copyright.debcargo.hint
+you should edit:
+	    src/$PKGNAME/debian/copyright
+and git-add, without editing:
+	    src/$PKGNAME/debian/copyright.debcargo.hint
 
 When done, git-add your changes plus any unmodified hint files, and re-run this
 command (\`./update.sh $*\`).
@@ -42,6 +60,6 @@ the top entry of debian/changelog, that will be dealt with in the next step.
 If satisfied with the output, run \`./release.sh $*\` to finalise your changes
 in the changelog and build a release-ready .dsc in build/. Assuming it runs
 successfully, you may \`dput\` the results afterwards. If you're not a Debian
-Developer and are unable to upload, please don't run this script because it
+Developer and are unable to upload, please don't run that script because it
 will commit the wrong thing to git; instead get a DD to run it on your behalf.
 eof

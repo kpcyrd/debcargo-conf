@@ -18,17 +18,17 @@ git add debian/changelog
 )
 
 rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-${PKGNAME}_$VER"*.orig.tar.*
-$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" --changelog-ready "$PKG" "$VER"
+$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" --changelog-ready "$CRATE" "$VER"
 
 git diff --exit-code -- "$PKGDIR_REL" || \
 abort 1 "Release attempt resulted in git diffs to $PKGDIR_REL. Check it, git add or reset as appropriate, and re-run this again."
 
-git commit -m "Release package $PKG"
+git commit -m "Release package $PKGNAME"
 
 ( cd "$BUILDDIR" && dpkg-buildpackage -d -S --no-sign )
 
 cat >&2 <<eof
-Release of $PKG ready as a source package in ${BUILDDIR#$PWD/}.
+Release of $CRATE ready as a source package in ${BUILDDIR#$PWD/}.
 
 If the source package is already in Debian and this version does not introduce
 new binaries, then you can just go ahead and directly dput the source package.
@@ -46,5 +46,5 @@ See https://wiki.debian.org/sbuild for instructions on how to set it up. The
 other tools are from the 'devscripts' package.
 
 The above assumes you are a Debian Developer. If not, you should revert your
-changes and ask a Debian Developer to do this step.
+changes with \`git reset --hard @~\` and ask a Debian Developer to do this step.
 eof
