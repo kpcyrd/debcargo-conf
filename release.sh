@@ -27,6 +27,9 @@ git commit -m "Release package $PKGNAME"
 
 ( cd "$BUILDDIR" && dpkg-buildpackage -d -S --no-sign )
 
+DEBVER=$(dpkg-parsechangelog -l build/$PKGNAME/debian/changelog -SVersion)
+DEBSRC=$(dpkg-parsechangelog -l build/$PKGNAME/debian/changelog -SSource)
+DEB_HOST_ARCH=$(dpkg-architecture -q DEB_HOST_ARCH)
 cat >&2 <<eof
 Release of $CRATE ready as a source package in ${BUILDDIR#$PWD/}.
 
@@ -37,10 +40,11 @@ If this is a NEW source package or introduces NEW binary packages not already
 in the Debian archive, you will need to build a binary package out of it. The
 recommended way is to run something like:
 
-$ sbuild <source_package.dsc>
-$ changestool <sbuild_binary_changes.changes> addsc <source_package.dsc>
-$ debsign --no-re-sign <sbuild_binary_changes.changes>
-$ dput <sbuild_binary_changes.changes>
+$ cd build
+$ sbuild ${DEBSRC}_${DEBVER}.dsc
+$ changestool ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes adddsc ${DEBSRC}_${DEBVER}.dsc
+$ debsign --no-re-sign ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
+$ dput ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
 
 See https://wiki.debian.org/sbuild for instructions on how to set it up. The
 other tools are from the 'devscripts' package.
