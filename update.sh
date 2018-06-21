@@ -57,9 +57,10 @@ corresponding non-hint files. (We have no way to auto-detect this so you have
 to be honest!) You should also ignore the FIXME in the Distribution field in
 the top entry of debian/changelog, that will be dealt with in the next step.
 
-If satisfied with the output, run \`./release.sh $*\` to finalise your changes
-in the changelog and build a release-ready .dsc in build/. Assuming it runs
-successfully, you may \`dput\` the results afterwards. If you're not a Debian
+When satisfied with the output, you can commit and push all your changes. Then,
+ask a Debian Developer to run \`./release.sh $*\` to finalise your changes in
+the changelog and build a release-ready .dsc in build/. Assuming it runs
+successfully, they may \`dput\` the results afterwards. If you're not a Debian
 Developer and are unable to upload, please don't run that script because it
-will commit the wrong thing to git; instead get a DD to run it on your behalf.
+will add inaccurate commits to git stating that the package has been uploaded.
 eof
