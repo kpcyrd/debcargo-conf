@@ -1,0 +1,6 @@
+rust-winapi-x86-64-pc-windows-gnu (0.4.0-1) unstable; urgency=medium
+
+  * Package winapi-x86_64-pc-windows-gnu 0.4.0 from crates.io using debcargo
+    2.1.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 21 Jun 2018 22:03:40 +0200
