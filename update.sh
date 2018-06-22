@@ -2,6 +2,10 @@
 
 . ./vars.sh.frag
 
+case "$(git rev-parse --abbrev-ref HEAD)" in
+pending-*)	abort 1 "You are on a pending-release branch, $0 can only be run on another branch, like master";;
+esac
+
 if [ -n "$VER" ]; then
 	if [ ! -d "$PWD/src/$PKGBASE" ]; then
 		abort 1 "Using crate $CRATE with version $VER but default-version is not packaged." \
