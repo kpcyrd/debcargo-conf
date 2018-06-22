@@ -64,7 +64,7 @@ semver-parser-0.7.0
 sequence_trie-0.3.5
 serde-0.9.15
 - serde-1.0.66
-sha1-0.6.0
+- sha1-0.6.0
 shell-escape-0.1.4
 shlex-0.1.1
 siphasher-0.2.2
