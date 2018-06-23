@@ -41,6 +41,34 @@ git commit -m "Release package $PKGNAME"
 
 ( cd "$BUILDDIR" && dpkg-buildpackage -d -S --no-sign )
 
+cat >"$BUILDDIR/../sbuild-and-sign.sh" <<'eof'
+#!/bin/sh
+set -e
+
+if [ -n "$DEBCARGO" ]; then
+	true
+elif which debcargo >/dev/null; then
+	DEBCARGO=$(which debcargo)
+elif [ -f "$HOME/.cargo/bin/debcargo" ]; then
+	DEBCARGO="$HOME/.cargo/bin/debcargo"
+else
+	abort 1 "debcargo not found, run \`cargo install debcargo\` or set DEBCARGO to point to it"
+fi
+
+CRATE="$1"
+VER="$2"
+
+PKGNAME=$($DEBCARGO deb-src-name "$CRATE" $VER || abort 1 "couldn't find crate $CRATE")
+DEBVER=$(dpkg-parsechangelog -l $PKGNAME/debian/changelog -SVersion)
+DEBSRC=$(dpkg-parsechangelog -l $PKGNAME/debian/changelog -SSource)
+DEB_HOST_ARCH=$(dpkg-architecture -q DEB_HOST_ARCH)
+
+sbuild ${CHROOT:+-c $CHROOT }${DEBSRC}_${DEBVER}.dsc
+changestool ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes adddsc ${DEBSRC}_${DEBVER}.dsc
+debsign ${DEBSIGN_KEYID:+-k $DEBSIGN_KEYID }--no-re-sign ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
+eof
+chmod +x "$BUILDDIR/../sbuild-and-sign.sh"
+
 DEBVER=$(dpkg-parsechangelog -l build/$PKGNAME/debian/changelog -SVersion)
 DEBSRC=$(dpkg-parsechangelog -l build/$PKGNAME/debian/changelog -SSource)
 DEB_HOST_ARCH=$(dpkg-architecture -q DEB_HOST_ARCH)
@@ -61,9 +89,7 @@ in the Debian archive, you will need to build a binary package out of it. The
 recommended way is to run something like:
 
 $ cd build
-$ sbuild ${DEBSRC}_${DEBVER}.dsc
-$ changestool ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes adddsc ${DEBSRC}_${DEBVER}.dsc
-$ debsign --no-re-sign ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
+$ ./sbuild-and-sign.sh $CRATE $VER
 $ dput ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
 
 See https://wiki.debian.org/sbuild for instructions on how to set it up. The
@@ -76,8 +102,7 @@ After you have uploaded the package with dput(1), you should push $RELBRANCH so
 that other people see it's been uploaded. Then, checkout another branch like
 master to continue development on other packages.
 
-$ git push origin $RELBRANCH
-$ git checkout master
+$ git push origin $RELBRANCH && git checkout master
 
 Merge the pending-release branch when ACCEPTED
 ==============================================
@@ -85,18 +110,15 @@ Merge the pending-release branch when ACCEPTED
 When it's ACCEPTED by the Debian FTP masters, you may then merge this branch
 back into the master branch, delete it, and push these updates to origin.
 
-$ git checkout master
-$ git merge $RELBRANCH
-$ git branch -d $RELBRANCH
+$ git checkout master && git merge $RELBRANCH && git branch -d $RELBRANCH
 $ git push origin master :$RELBRANCH
 
 ----
 
 The above assumes you are a Debian Developer with upload rights. If not, you
-should revert what I just did:
+should revert what I just did. To do that, run:
 
-$ git checkout master
-$ git branch -D $RELBRANCH
+$ git checkout master && git branch -D $RELBRANCH
 
 Then ask a Debian Developer to re-run me ($*) on your behalf.
 eof
