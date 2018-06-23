@@ -95,6 +95,9 @@ $ dput ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
 See https://wiki.debian.org/sbuild for instructions on how to set it up. The
 other tools are from the 'devscripts' package.
 
+If the build fails e.g. due to missing Build-Dependencies you should revert
+what I did (see below) and package those missing Build-Dependencies first.
+
 Push this pending-release branch
 ================================
 

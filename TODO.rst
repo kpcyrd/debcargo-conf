@@ -6,9 +6,10 @@ Base packages
 
 The below are transitive dependencies of {debcargo, exa, ripgrep, mdbook,
 xi-core-lib} that have no other rust dependencies, i.e. can be built right now
-with what's already in Debian.
+with what's already in Debian. Note that some of them are older versions and
+the newer versions *do* have other dependencies that must be packaged first.
 
-"-" means already done
+"-" means already done, pending upload. When they get ACCEPTED you can rm from here.
 
 ansi_term-0.8.0
 bitflags-0.4.0
@@ -16,20 +17,20 @@ bitflags-0.7.0
 bitflags-0.9.1
 - bitflags-1.0.3
 bytecount-0.1.7
-bytecount-0.3.1
+- bytecount-0.3.1
 byteorder-0.4.2
-byteorder-1.2.3
+- byteorder-1.2.3
 bytes-0.3.0
 cfg-if-0.1.3
 crossbeam-0.2.12
 - dtoa-0.4.2
-either-1.5.0
-fnv-1.0.6
+- either-1.5.0
+- fnv-1.0.6
 foreign-types-shared-0.1.1
 fuchsia-zircon-sys-0.3.3
-getopts-0.2.17
-glob-0.2.11
-hex-0.3.2
+- getopts-0.2.17
+- glob-0.2.11
+- hex-0.3.2
 httparse-1.2.4
 is-match-0.1.0
 itoa-0.3.4
@@ -45,12 +46,11 @@ matches-0.1.6
 modifier-0.1.0
 natord-1.0.9
 nom-1.2.4
-num-traits-0.2.4
-num-traits-0.2.5
+- num-traits-0.2.5
 openssl-probe-0.1.2
 percent-encoding-1.0.1
 pest-1.0.6
-pkg-config-0.3.11
+- pkg-config-0.3.11
 precomputed-hash-0.1.1
 quick-error-1.2.2
 quote-0.3.15
