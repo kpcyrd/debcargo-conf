@@ -47,13 +47,13 @@ exactly as output by debcargo. So for example:
 
 to deal with a FIXME in:
 	    build/$PKGNAME/debian/copyright.debcargo.hint
-you should edit:
+you should edit (and git-add when ready):
 	    src/$PKGNAME/debian/copyright
-and git-add, without editing:
+and directly git-add without editing:
 	    src/$PKGNAME/debian/copyright.debcargo.hint
 
-When done, git-add your changes plus any unmodified hint files, and re-run this
-command (\`./update.sh $*\`).
+When done, git-add all your changes plus any unmodified hint files, and re-run
+this command (\`./update.sh $*\`).
 
 Check that your fixes actually get rid of the FIXMEs. Of course, you can ignore
 FIXMEs listed in hint files, assuming you actually fixed the issues in the
