@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: is-match
+Upstream-Contact: Matthias Beyer <mail@beyermatthias.de>
+Source: https://github.com/matthiasbeyer/is-match
+
+Files: *
+Copyright: 2017-2018 Matthias Beyer <mail@beyermatthias.de>
+License: MPL-2.0
+
+Files: debian/*
+Copyright: 2018 Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+           2018 Paul van Tilburg <paulvt@debian.org>
+License: MPL-2.0
+
+License: MPL-2.0
+ Debian systems provide the MPL 2.0 in /usr/share/common-licenses/MPL-2.0
