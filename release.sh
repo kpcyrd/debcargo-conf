@@ -82,15 +82,15 @@ Build the package if necessary, and upload
 If the source package is already in Debian and this version does not introduce
 new binaries, then you can just go ahead and directly dput the source package.
 
-$ dput ${DEBSRC}_${DEBVER}_source.changes
+  dput ${DEBSRC}_${DEBVER}_source.changes
 
 If this is a NEW source package or introduces NEW binary packages not already
 in the Debian archive, you will need to build a binary package out of it. The
 recommended way is to run something like:
 
-$ cd build
-$ ./sbuild-and-sign.sh $CRATE $VER
-$ dput ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
+  cd build
+  ./sbuild-and-sign.sh $CRATE $VER
+  dput ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
 
 See https://wiki.debian.org/sbuild for instructions on how to set it up. The
 other tools are from the 'devscripts' package.
@@ -105,7 +105,7 @@ After you have uploaded the package with dput(1), you should push $RELBRANCH so
 that other people see it's been uploaded. Then, checkout another branch like
 master to continue development on other packages.
 
-$ git push origin $RELBRANCH && git checkout master
+  git push origin $RELBRANCH && git checkout master
 
 Merge the pending-release branch when ACCEPTED
 ==============================================
@@ -113,15 +113,15 @@ Merge the pending-release branch when ACCEPTED
 When it's ACCEPTED by the Debian FTP masters, you may then merge this branch
 back into the master branch, delete it, and push these updates to origin.
 
-$ git checkout master && git merge $RELBRANCH && git branch -d $RELBRANCH
-$ git push origin master :$RELBRANCH
+  git checkout master && git merge $RELBRANCH && git branch -d $RELBRANCH
+  git push origin master :$RELBRANCH
 
 ----
 
 The above assumes you are a Debian Developer with upload rights. If not, you
 should revert what I just did. To do that, run:
 
-$ git checkout master && git branch -D $RELBRANCH
+  git checkout master && git branch -D $RELBRANCH
 
 Then ask a Debian Developer to re-run me ($*) on your behalf.
 eof
