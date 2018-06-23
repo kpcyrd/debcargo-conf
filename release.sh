@@ -57,13 +57,14 @@ fi
 
 CRATE="$1"
 VER="$2"
+DISTRIBUTION="${DISTRIBUTION:-unstable}"
 
 PKGNAME=$($DEBCARGO deb-src-name "$CRATE" $VER || abort 1 "couldn't find crate $CRATE")
 DEBVER=$(dpkg-parsechangelog -l $PKGNAME/debian/changelog -SVersion)
 DEBSRC=$(dpkg-parsechangelog -l $PKGNAME/debian/changelog -SSource)
 DEB_HOST_ARCH=$(dpkg-architecture -q DEB_HOST_ARCH)
 
-sbuild ${CHROOT:+-c $CHROOT }${DEBSRC}_${DEBVER}.dsc
+sbuild --no-source --arch-any --arch-all ${CHROOT:+-c $CHROOT }${DISTRIBUTION:+-d $DISTRIBUTION }${DEBSRC}_${DEBVER}.dsc
 changestool ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes adddsc ${DEBSRC}_${DEBVER}.dsc
 debsign ${DEBSIGN_KEYID:+-k $DEBSIGN_KEYID }--no-re-sign ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
 eof
