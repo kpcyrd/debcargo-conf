@@ -33,7 +33,7 @@ fi
 test -x "$DEBCARGO" || abort 1 "debcargo found but not executable: $DEBCARGO"
 dcver=$($DEBCARGO --version | sed -ne 's/debcargo //p')
 case $dcver in
-2.0.*|2.1.0*)	abort 1 "unsupported debcargo version $dcver. try reinstalling with \`cargo install debcargo --force\`";;
+2.0.*|2.1.0*|2.1.1|2.1.1-*)	abort 1 "unsupported debcargo version $dcver. try reinstalling with \`cargo install debcargo --force\`";;
 2.1.*)	true;;
 *)	abort 1 "unsupported debcargo version: $dcver";;
 esac
