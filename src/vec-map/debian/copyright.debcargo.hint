@@ -1,0 +1,108 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: vec_map
+Upstream-Contact: Alex Crichton <alex@alexcrichton.com>
+ Jorge Aparicio <japaricious@gmail.com>
+ Alexis Beingessner <a.beingessner@gmail.com>
+ Brian Anderson <>
+ tbu- <>
+ Manish Goregaokar <>
+ Aaron Turon <aturon@mozilla.com>
+ Adolfo Ochagavía <>
+ Niko Matsakis <>
+ Steven Fackler <>
+ Chase Southwood <csouth3@illinois.edu>
+ Eduard Burtescu <>
+ Florian Wilkens <>
+ Félix Raimundo <>
+ Tibor Benke <>
+ Markus Siemens <markus@m-siemens.de>
+ Josh Branchaud <jbranchaud@gmail.com>
+ Huon Wilson <dbau.pp@gmail.com>
+ Corey Farwell <coref@rwell.org>
+ Aaron Liblong <>
+ Nick Cameron <nrc@ncameron.org>
+ Patrick Walton <pcwalton@mimiga.net>
+ Felix S Klock II <>
+ Andrew Paseltiner <apaseltiner@gmail.com>
+ Sean McArthur <sean.monstar@gmail.com>
+ Vadim Petrochenkov <>
+Source: https://github.com/contain-rs/vec-map
+
+Files: *
+Copyright: FIXME (overlay) UNKNOWN Alex Crichton <alex@alexcrichton.com>
+ FIXME (overlay) UNKNOWN Jorge Aparicio <japaricious@gmail.com>
+ FIXME (overlay) UNKNOWN Alexis Beingessner <a.beingessner@gmail.com>
+ FIXME (overlay) UNKNOWN Brian Anderson <>
+ FIXME (overlay) UNKNOWN tbu- <>
+ FIXME (overlay) UNKNOWN Manish Goregaokar <>
+ FIXME (overlay) UNKNOWN Aaron Turon <aturon@mozilla.com>
+ FIXME (overlay) UNKNOWN Adolfo Ochagavía <>
+ FIXME (overlay) UNKNOWN Niko Matsakis <>
+ FIXME (overlay) UNKNOWN Steven Fackler <>
+ FIXME (overlay) UNKNOWN Chase Southwood <csouth3@illinois.edu>
+ FIXME (overlay) UNKNOWN Eduard Burtescu <>
+ FIXME (overlay) UNKNOWN Florian Wilkens <>
+ FIXME (overlay) UNKNOWN Félix Raimundo <>
+ FIXME (overlay) UNKNOWN Tibor Benke <>
+ FIXME (overlay) UNKNOWN Markus Siemens <markus@m-siemens.de>
+ FIXME (overlay) UNKNOWN Josh Branchaud <jbranchaud@gmail.com>
+ FIXME (overlay) UNKNOWN Huon Wilson <dbau.pp@gmail.com>
+ FIXME (overlay) UNKNOWN Corey Farwell <coref@rwell.org>
+ FIXME (overlay) UNKNOWN Aaron Liblong <>
+ FIXME (overlay) UNKNOWN Nick Cameron <nrc@ncameron.org>
+ FIXME (overlay) UNKNOWN Patrick Walton <pcwalton@mimiga.net>
+ FIXME (overlay) UNKNOWN Felix S Klock II <>
+ FIXME (overlay) UNKNOWN Andrew Paseltiner <apaseltiner@gmail.com>
+ FIXME (overlay) UNKNOWN Sean McArthur <sean.monstar@gmail.com>
+ FIXME (overlay) UNKNOWN Vadim Petrochenkov <>
+License: MIT or Apache-2.0
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: ./LICENSE-MIT
+Copyright: 2015 The Rust Project Developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/lib.rs
+Copyright: 2012-2018 The Rust Project Developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: debian/*
+Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+           2018 FIXME (overlay) Your Name <Your Email>
+License: MIT or Apache-2.0
+
+License: Apache-2.0
+ Debian systems provide the Apache 2.0 license in
+ /usr/share/common-licenses/Apache-2.0
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+
+
