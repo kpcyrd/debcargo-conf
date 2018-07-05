@@ -56,7 +56,7 @@ slab-0.1.3
 slab-0.3.0
 - slab-0.4.0
 - string_cache_shared-0.3.0
-strsim-0.7.0
+- strsim-0.7.0
 strum-0.9.0
 traitobject-0.1.0
 typeable-0.1.2
