@@ -69,7 +69,7 @@ utf8-ranges-0.1.3
 - utf8-ranges-1.0.0
 vcpkg-0.2.4
 - vec_map-0.8.1
-version_check-0.1.3
+- version_check-0.1.3
 winapi-0.2.8
 - winapi-build-0.1.1
 xi-unicode-0.1.0
