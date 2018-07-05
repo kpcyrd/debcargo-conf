@@ -1,0 +1,5 @@
+rust-safemem (0.3.0-1) unstable; urgency=medium
+
+  * Package safemem 0.3.0 from crates.io using debcargo 2.1.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 06 Jul 2018 00:06:45 +0200
