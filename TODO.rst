@@ -18,7 +18,7 @@ bitflags-0.9.1
 bytecount-0.1.7
 byteorder-0.4.2
 bytes-0.3.0
-cfg-if-0.1.3
+- cfg-if-0.1.3
 crossbeam-0.2.12
 foreign-types-shared-0.1.1
 fuchsia-zircon-sys-0.3.3
@@ -50,29 +50,29 @@ scopeguard-0.3.3
 semver-parser-0.7.0
 sequence_trie-0.3.5
 serde-0.9.15
-shell-escape-0.1.4
+- shell-escape-0.1.4
 shlex-0.1.1
 siphasher-0.2.2
 slab-0.1.3
 slab-0.3.0
-slab-0.4.0
+- slab-0.4.0
 string_cache_shared-0.3.0
 strsim-0.7.0
 strum-0.9.0
 traitobject-0.1.0
 typeable-0.1.2
-unicode-normalization-0.1.7
-unicode-width-0.1.5
+- unicode-normalization-0.1.7
+- unicode-width-0.1.5
 unicode-xid-0.0.4
-unicode-xid-0.1.0
-utf-8-0.7.2
+- unicode-xid-0.1.0
+- utf-8-0.7.2
 utf8-ranges-0.1.3
-utf8-ranges-1.0.0
+- utf8-ranges-1.0.0
 vcpkg-0.2.4
-vec_map-0.8.1
+- vec_map-0.8.1
 version_check-0.1.3
 winapi-0.2.8
-winapi-build-0.1.1
+- winapi-build-0.1.1
 xi-unicode-0.1.0
 
 
