@@ -43,14 +43,14 @@ quote-0.3.15
 redox_syscall-0.1.40
 regex-syntax-0.3.9
 regex-syntax-0.4.2
-safemem-0.2.0
+- safemem-0.2.0
 scoped_threadpool-0.1.9
 scopeguard-0.3.3
 semver-parser-0.7.0
 sequence_trie-0.3.5
 serde-0.9.15
 - shell-escape-0.1.4
-shlex-0.1.1
+- shlex-0.1.1
 siphasher-0.2.2
 slab-0.1.3
 slab-0.3.0
