@@ -27,7 +27,7 @@ Comment:
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
            2018 FIXME (overlay) Your Name <Your Email>
 License: MIT or Apache-2.0
 

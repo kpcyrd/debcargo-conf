@@ -5,7 +5,6 @@ Source: https://github.com/rust-lang-nursery/bitflags
 
 Files: *
 Copyright: 2014-2018 The Rust Project Developers
-           2014-2018 The Rust Project Developers
 License: MIT or Apache-2.0
 
 Files: debian/*

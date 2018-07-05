@@ -7,6 +7,9 @@ Files: *
 Copyright: 2016-2018 David Tolnay <dtolnay@gmail.com>
            2016-2018 Dtoa Developers
 License: MIT or Apache-2.0
+Comment:
+ Upstream license mentions "Itoa Developers" which is just a copy-paste
+ error and this refers to the same people as "Dtoa Developers".
 
 Files: debian/*
 Copyright: 2018 Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>

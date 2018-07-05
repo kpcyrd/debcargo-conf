@@ -5,6 +5,8 @@ Source: https://github.com/mitsuhiko/rust-sha1
 
 Files: *
 Copyright: 2009-2013 Armin Ronacher <armin.ronacher@active-4.com>
+           2009-2013 Mozilla Foundation
+           2013 Koka El Kiwi
 License: BSD-3-Clause
 
 Files: debian/*
