@@ -1,0 +1,2396 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: winapi
+Upstream-Contact: Peter Atashian <retep998@gmail.com>
+Source: https://github.com/retep998/winapi-rs
+
+Files: *
+Copyright: FIXME (overlay) UNKNOWN Peter Atashian <retep998@gmail.com>
+License: MIT or Apache-2.0
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: ./LICENSE-MIT
+Copyright: 2015 The winapi-rs Developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./build.rs
+Copyright: 2016-2018 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/lib.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/macros.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/basetsd.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/bcrypt.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/bugcodes.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/cderr.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/cfg.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/d3d9.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/d3d9caps.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/d3d9types.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/dcomptypes.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/devguid.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/devpkey.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/devpropdef.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/dinputd.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/dxgi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/dxgi1_2.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/dxgi1_3.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/dxgi1_4.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/dxgi1_5.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/dxgi1_6.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/dxgiformat.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/dxgitype.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/evntprov.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/evntrace.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/guiddef.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/hidclass.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/hidpi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/hidsdi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/hidusage.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/in6addr.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/inaddr.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/intsafe.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/ksmedia.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/ktmtypes.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/lmcons.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/minwindef.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/mmreg.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/mod.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/mstcpip.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/ntddscsi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/ntddser.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/ntdef.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/ntstatus.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/qos.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/rpc.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/rpcdce.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/rpcndr.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/sddl.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/sspi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/stralign.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/transportsettingcommon.rs
+Copyright: 2018 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/tvout.rs
+Copyright: 2018 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/usb.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/usbiodef.rs
+Copyright: 2016 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/usbspec.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/windef.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/windowsx.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/winerror.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/winusbio.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/wmistr.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/wnnc.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/ws2def.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/ws2ipdef.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/wtypes.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/shared/wtypesbase.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/accctrl.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/aclapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/appmgmt.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/audioclient.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/audiosessiontypes.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/avrt.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/bits.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/bits10_1.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/bits1_5.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/bits2_0.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/bits2_5.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/bits3_0.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/bits4_0.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/bits5_0.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/bitscfg.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/bitsmsg.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/cfgmgr32.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/cguid.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/combaseapi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/coml2api.rs
+Copyright: 2016 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/commapi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/commctrl.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/commdlg.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/commoncontrols.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/consoleapi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/corsym.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d2d1.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d2d1_1.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d2d1_2.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d2d1_3.rs
+Copyright: 2018 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d2d1effectauthor.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d2d1effects.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d2d1effects_1.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d2d1effects_2.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d2d1svg.rs
+Copyright: 2018 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d2dbasetypes.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d10.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d10_1.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d10_1shader.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d10effect.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d10misc.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d10sdklayers.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d10shader.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d11.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d11_1.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d11_2.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d11_3.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d11_4.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d11on12.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d11sdklayers.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d11shader.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d12.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d12sdklayers.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3d12shader.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3dcommon.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3dcompiler.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3dcsx.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3dx10core.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3dx10math.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/d3dx10mesh.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/datetimeapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/davclnt.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dbghelp.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dcommon.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dcomp.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dcompanimation.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dde.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ddraw.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ddrawi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ddrawint.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/debugapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dinput.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dmksctl.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dmusicc.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/docobj.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/documenttarget.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dpa_dsa.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dpapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dsgetdc.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dsound.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dsrole.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dvp.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dwmapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dwrite.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dwrite_1.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dwrite_2.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dwrite_3.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dxdiag.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dxfile.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dxgidebug.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dxva2api.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/dxvahd.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/endpointvolume.rs
+Copyright: 2018 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/errhandlingapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/evntcons.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/fibersapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/fileapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/gl/gl.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/gl/mod.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/handleapi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/heapapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/highlevelmonitorconfigurationapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/http.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/imm.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/interlockedapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ioapiset.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/jobapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/jobapi2.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/knownfolders.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ktmw32.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/libloaderapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmaccess.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmalert.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmapibuf.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmat.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmdfs.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmerrlog.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmjoin.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmmsg.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmremutl.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmrepl.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmserver.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmshare.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmstats.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmsvc.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmuse.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lmwksta.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lowlevelmonitorconfigurationapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/lsalookup.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/memoryapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/minschannel.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/minwinbase.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/mmdeviceapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/mmeapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/mmsystem.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/mod.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/msaatext.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/mscat.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/mschapp.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/mssip.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/namedpipeapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/namespaceapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/nb30.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ncrypt.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ntlsa.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ntsecapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/oaidl.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/objbase.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/objidl.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/objidlbase.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ocidl.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/oleauto.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/olectl.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/opmapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/pdh.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/perflib.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/physicalmonitorenumerationapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/playsoundapi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/powerbase.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/powersetting.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/powrprof.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/processenv.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/processsnapshot.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/processthreadsapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/processtopologyapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/profileapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/propidl.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/propkeydef.rs
+Copyright: 2016 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/propsys.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/prsht.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/psapi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/realtimeapiset.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/reason.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/restartmanager.rs
+Copyright: 2018 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/restrictederrorinfo.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/rmxfguid.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sapi51.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sapi53.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sapiddk.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sapiddk51.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/schannel.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/securityappcontainer.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/securitybaseapi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/servprov.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/setupapi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/shellapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/shellscalingapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/shlobj.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/shobjidl.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/shobjidl_core.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/shtypes.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/spapidef.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sporder.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sql.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sqlext.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sqltypes.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sqlucode.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sspi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/stringapiset.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/strmif.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/subauth.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/synchapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/sysinfoapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/systemtopologyapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/textstor.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/threadpoolapiset.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/threadpoollegacyapiset.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/timeapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/timezoneapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/tlhelp32.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/unknwnbase.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/urlhist.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/urlmon.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/userenv.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/usp10.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/utilapiset.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/vsbackup.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/vss.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/vsserror.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/vswriter.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/wct.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/werapi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winbase.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/wincodec.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/wincodecsdk.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/wincon.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/wincred.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/wincrypt.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/windowsceip.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winefs.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winevt.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/wingdi.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winhttp.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/wininet.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winineti.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winioctl.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winnetwk.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winnls.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winnt.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winreg.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winsafer.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winscard.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winsmcrd.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winsock2.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winspool.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winsvc.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winusb.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winuser.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/winver.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/wow64apiset.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ws2spi.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/ws2tcpip.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/um/xinput.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/vc/excpt.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/vc/limits.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/vc/mod.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/vc/vadefs.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/vc/vcruntime.rs
+Copyright: 2016 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/winrt/activation.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/winrt/hstring.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/winrt/inspectable.rs
+Copyright: 2015-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/winrt/mod.rs
+Copyright: 2016-2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/winrt/roapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/winrt/robuffer.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/winrt/roerrorapi.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/winrt/winstring.rs
+Copyright: 2017 winapi-rs developers
+License: UNKNOWN; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: debian/*
+Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+           2018 FIXME (overlay) Your Name <Your Email>
+License: MIT or Apache-2.0
+
+License: Apache-2.0
+ Debian systems provide the Apache 2.0 license in
+ /usr/share/common-licenses/Apache-2.0
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+
+
