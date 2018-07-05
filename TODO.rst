@@ -23,7 +23,6 @@ crossbeam-0.2.12
 foreign-types-shared-0.1.1
 fuchsia-zircon-sys-0.3.3
 httparse-1.2.4
-is-match-0.1.0
 itoa-0.3.4
 language-tags-0.2.2
 lazycell-0.6.0
