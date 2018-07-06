@@ -1,0 +1,36 @@
+Source: rust-crossbeam
+Section: rust
+Priority: optional
+Build-Depends: debhelper (>= 11),
+ dh-cargo (>= 6),
+ cargo:native <!nocheck>,
+ rustc:native <!nocheck>,
+ libstd-rust-dev <!nocheck>
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paul van Tilburg <paulvt@debian.org>
+Standards-Version: 4.1.5
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/crossbeam]
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crossbeam
+
+# FIXME (packages."(name)".section) debcargo auto-generated summaries are very long, consider overriding
+
+Package: librust-crossbeam-dev
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${misc:Depends}
+Provides:
+ librust-crossbeam+default-dev (= ${binary:Version}),
+ librust-crossbeam+nightly-dev (= ${binary:Version}),
+ librust-crossbeam-0-dev (= ${binary:Version}),
+ librust-crossbeam-0+default-dev (= ${binary:Version}),
+ librust-crossbeam-0+nightly-dev (= ${binary:Version}),
+ librust-crossbeam-0.3-dev (= ${binary:Version}),
+ librust-crossbeam-0.3+default-dev (= ${binary:Version}),
+ librust-crossbeam-0.3+nightly-dev (= ${binary:Version}),
+ librust-crossbeam-0.3.2-dev (= ${binary:Version}),
+ librust-crossbeam-0.3.2+default-dev (= ${binary:Version}),
+ librust-crossbeam-0.3.2+nightly-dev (= ${binary:Version})
+Description: Support for lock-free data structures, synchronizers, and parallel programming - Rust source code
+ This package contains the source for the Rust crossbeam crate, packaged by
+ debcargo for use with cargo and dh-cargo.
