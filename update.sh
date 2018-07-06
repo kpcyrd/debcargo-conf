@@ -33,7 +33,7 @@ if [ ! -f "$PKGDIR/debian/copyright" ]; then
 	You may find the following useful too:
 
 	Files: debian/*
-	Copyright: 2018 Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+	Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 	           2018 $DEBFULLNAME <$DEBEMAIL>
 
 	The reason we don't put this in debian/copyright.debcargo.hint itself is
@@ -81,7 +81,7 @@ corresponding non-hint files. (We have no way to auto-detect this so you have
 to be honest!) You should also ignore the FIXME in the Distribution field in
 the top entry of debian/changelog, that will be dealt with in the next step.
 
-If there was a `git diff` above, check it to see if debcargo made changes to
+If there was a \`git diff\` above, check it to see if debcargo made changes to
 any auto-generated hint files. If so, you should make the equivalent changes to
 the non-hint files, and git-add these too.
 
