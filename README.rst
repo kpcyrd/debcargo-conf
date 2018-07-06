@@ -23,6 +23,12 @@ make sure the latest version is packaged by doing all of the above, then run
 the command above and copy anything relevant from the config directory
 for the latest version, to that for the old version.
 
+**To prepare the release:**
+
+$ ``./release.sh <rust-crate-name>``
+
+This will prepare the necessary Debian files in build/. It will also creating a
+git branch to manage the packaging until it is accepted in Debian itself.
 
 NEWS
 ====
