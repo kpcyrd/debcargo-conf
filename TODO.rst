@@ -1,6 +1,12 @@
 Crates to package
 =================
 
+The lists below are calculated using some combinations of running::
+
+  tests/sh/cargo-tree-deb-rec <binary-crate>
+
+from the ``debcargo.git`` repository.
+
 Base packages
 -------------
 
@@ -8,6 +14,10 @@ The below are transitive dependencies of {debcargo, exa, ripgrep, mdbook,
 xi-core-lib} that have no other rust dependencies, i.e. can be built right now
 with what's already in Debian. Note that some of them are older versions and
 the newer versions *do* have other dependencies that must be packaged first.
+
+This list is not set in stone, newer versions of those programs may make some
+of the older versions obsolete. Use your own judgement on what to package, or
+what to remove from the list if it's not longer necessary.
 
 "-" means already done, pending upload. When they get ACCEPTED you can rm from here.
 
