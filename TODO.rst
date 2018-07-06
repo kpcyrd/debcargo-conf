@@ -181,7 +181,7 @@ itoa v0.4.1
 dtoa v0.4.2
 serde_json v1.0.19
 serde_ignored v0.0.4
-num_cpus v1.8.0
+- num_cpus v1.8.0
 socket2 v0.3.6
 miow v0.3.1
 lazycell v0.6.0
