@@ -125,7 +125,7 @@ lazy_static v1.0.1
 thread_local v0.3.5
 ucd-util v0.1.1
 regex-syntax v0.6.0
-memchr v2.0.1
+- memchr v2.0.1
 aho-corasick v0.6.4
 regex v1.0.0
 either v1.5.0
