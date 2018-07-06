@@ -84,7 +84,7 @@ same-file v1.0.2
 walkdir v2.1.4
 serde v1.0.66
 toml v0.4.6
-textwrap v0.10.0
+- textwrap v0.10.0
 remove_dir_all v0.5.1
 libc v0.2.42
 fuchsia-zircon-sys v0.3.3
