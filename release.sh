@@ -2,6 +2,10 @@
 
 . ./vars.sh.frag
 
+if test ! -d $PKGDIR_REL; then
+    abort 1 "Cannot find $PKGDIR_REL. Did you run ./new-package.sh before?"
+fi
+
 git diff --quiet --cached || \
 abort 1 "You have other pending changes to git, please complete it or stash it away and re-run this script."
 
