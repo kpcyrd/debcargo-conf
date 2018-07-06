@@ -61,6 +61,10 @@ corresponding non-hint files. (We have no way to auto-detect this so you have
 to be honest!) You should also ignore the FIXME in the Distribution field in
 the top entry of debian/changelog, that will be dealt with in the next step.
 
+If there was a `git diff` above, check it to see if debcargo made changes to
+any auto-generated hint files. If so, you should make the equivalent changes to
+the non-hint files, and git-add these too.
+
 When satisfied with the output, you can commit and push all your changes. Then,
 ask a Debian Developer to run \`./release.sh $*\` to finalise your changes in
 the changelog and build a release-ready .dsc in build/. Assuming it runs
