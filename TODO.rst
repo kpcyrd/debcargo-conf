@@ -142,7 +142,7 @@ pkg-config v0.3.11
 cc v1.0.17
 openssl-sys v0.9.32
 openssl-probe v0.1.2
-log v0.4.1
+log v0.4.1 (waiting for cfg-id to be ACCEPTED)
 cmake v0.1.31
 libz-sys v1.0.18
 libssh2-sys v0.2.7
