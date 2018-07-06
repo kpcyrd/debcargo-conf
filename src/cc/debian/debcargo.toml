@@ -4,7 +4,11 @@ bin = false
 [packages."librust-cc-dev"]
 summary = "Assist Cargo build scripts in invoking the C compiler - Rust source code"
 
+[packages."librust-cc+parallel-dev"]
+summary = "Assist Cargo build scripts in invoking the C compiler - feature \"parallel\""
+
 [packages."librust-cc+rayon-dev"]
 summary = "Assist Cargo build scripts in invoking the C compiler - feature \"rayon\""
 
 # TODO: the above could be done in a simpler way in debcargo
+# https://salsa.debian.org/rust-team/debcargo/issues/9
