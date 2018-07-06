@@ -57,7 +57,9 @@ winapi-0.2.8
 - winapi-build-0.1.1
 xi-unicode-0.1.0
 
-mdbook/exa:
+dependencies of mdbook/exa
+--------------------------
+
 ansi_term-0.8.0 -- needed by exa
 bitflags-0.9.1 -- exa, mdbook
 byteorder-0.4.2 -- exa
