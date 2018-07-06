@@ -18,7 +18,18 @@ if [ ! -d "$PKGDIR/debian" ]; then
 	git add "$PKGDIR"
 fi
 if [ ! -f "$PKGDIR/debian/copyright" ]; then
-	echo "FIXME fill me in using ./copyright.debcargo.hint as a guide" > "$PKGDIR/debian/copyright"
+	cat <<-eof > "$PKGDIR/debian/copyright"
+	FIXME fill me in using ./copyright.debcargo.hint as a guide
+
+	You may find the following useful too:
+
+	Files: debian/*
+	Copyright: 2018 Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+	           2018 $DEBFULLNAME <$DEBEMAIL>
+
+	The reason we don't put this in debian/copyright.debcargo.hint itself is
+	documented here: https://salsa.debian.org/rust-team/debcargo-conf/issues/5
+	eof
 fi
 if [ -n "$VER" -a "$(sed -ne 's/^semver_suffix\s*=\s*//p' "$PKGCFG")" != "true" ]; then
 	if grep -q semver_suffix "$PKGCFG"; then
