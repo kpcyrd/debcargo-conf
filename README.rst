@@ -27,6 +27,13 @@ for the latest version, to that for the old version.
 NEWS
 ====
 
+2018-07-06
+----------
+
+Great news, we started to upload packages in the archives. 22 have been accepted
+and about 20 are pending in NEW.
+
+
 2018-06-20
 ----------
 
