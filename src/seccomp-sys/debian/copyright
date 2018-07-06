@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: seccomp-sys
+Upstream-Contact: Alexander Polakov <apolyakov@beget.ru>
+Source: https://github.com/polachok/seccomp-sys
+
+Files: *
+Copyright: 2016-2017 Alexander Polakov <apolyakov@beget.ru>
+License: LGPL-2.1
+
+Files: debian/*
+Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+           2018 kpcyrd <git@rxv.cc>
+License: LGPL-2.1
+
+License: LGPL-2.1
+ Debian systems provide the LGPL 2.1 in /usr/share/common-licenses/LGPL-2.1

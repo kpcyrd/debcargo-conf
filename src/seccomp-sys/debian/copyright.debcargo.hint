@@ -1,0 +1,21 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: seccomp-sys
+Upstream-Contact: Alexander Polakov <apolyakov@beget.ru>
+Source: https://github.com/polachok/seccomp-sys
+
+Files: *
+Copyright: FIXME (overlay) UNKNOWN Alexander Polakov <apolyakov@beget.ru>
+License: LGPL-2.1
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: debian/*
+Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+           2018 FIXME (overlay) Your Name <Your Email>
+License: LGPL-2.1
+
+License: LGPL-2.1
+ Debian systems provide the LGPL 2.1 in /usr/share/common-licenses/LGPL-2.1
