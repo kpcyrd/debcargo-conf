@@ -1,6 +1,15 @@
 #!/bin/sh
 
+if [ $# -ne 1 -o $# -ne 2 ]; then
+    echo "Incorrect syntax."
+    echo "Syntax:"
+    echo "$0 <rust-crate-name>"
+    echo "$0 <rust-crate-name> <old-version>"
+    exit 1
+fi
+
 . ./vars.sh.frag
+
 
 case "$(git rev-parse --abbrev-ref HEAD)" in
 pending-*)	abort 1 "You are on a pending-release branch, $0 can only be run on another branch, like master";;
