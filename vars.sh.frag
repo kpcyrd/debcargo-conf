@@ -38,6 +38,13 @@ case $dcver in
 *)	abort 1 "unsupported debcargo version: $dcver";;
 esac
 
+if [ $# -ne 1 -a $# -ne 2 ]; then
+	echo >&2 "Usage: $0 <rust-crate-name>"
+	echo >&2 "       $0 <rust-crate-name> <old-version>"
+	echo >&2 "See README.rst for more details on usage."
+	exit 2
+fi
+
 CRATE="$1"
 VER="$2"
 
