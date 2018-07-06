@@ -21,61 +21,31 @@ what to remove from the list if it's not longer necessary.
 
 "-" means already done, pending upload. When they get ACCEPTED you can rm from here.
 
-ansi_term-0.8.0
-bitflags-0.4.0
-bitflags-0.7.0
-bitflags-0.9.1
-bytecount-0.1.7
-byteorder-0.4.2
-bytes-0.3.0
 - cfg-if-0.1.3
-crossbeam-0.2.12
 foreign-types-shared-0.1.1
 fuchsia-zircon-sys-0.3.3
-httparse-1.2.4
-itoa-0.3.4
-language-tags-0.2.2
 lazycell-0.6.0
-lazy_static-0.2.11
-mac-0.1.1
-maplit-1.0.1
 matches-0.1.6
-modifier-0.1.0
-natord-1.0.9
-nom-1.2.4
 openssl-probe-0.1.2
 percent-encoding-1.0.1
-pest-1.0.6
 - pkg-config-0.3.11
-precomputed-hash-0.1.1
 quick-error-1.2.2
 quote-0.3.15
 redox_syscall-0.1.40
-regex-syntax-0.3.9
 regex-syntax-0.4.2
+regex-syntax-0.5.6
 - safemem-0.2.0
-scoped_threadpool-0.1.9
 scopeguard-0.3.3
-semver-parser-0.7.0
-sequence_trie-0.3.5
-serde-0.9.15
 - shell-escape-0.1.4
 - shlex-0.1.1
-siphasher-0.2.2
-slab-0.1.3
-slab-0.3.0
 - slab-0.4.0
 - string_cache_shared-0.3.0
 - strsim-0.7.0
-strum-0.9.0
-traitobject-0.1.0
-typeable-0.1.2
 - unicode-normalization-0.1.7
 - unicode-width-0.1.5
 unicode-xid-0.0.4
 - unicode-xid-0.1.0
 - utf-8-0.7.2
-utf8-ranges-0.1.3
 - utf8-ranges-1.0.0
 vcpkg-0.2.4
 - vec_map-0.8.1
@@ -83,6 +53,29 @@ vcpkg-0.2.4
 winapi-0.2.8
 - winapi-build-0.1.1
 xi-unicode-0.1.0
+
+mdbook/exa:
+ansi_term-0.8.0 -- needed by exa
+bitflags-0.9.1 -- exa, mdbook
+byteorder-0.4.2 -- exa
+language-tags-0.2.2 -- mdbook
+lazy_static-0.2.11 -- exa
+mac-0.1.1 -- mdbook
+maplit-1.0.1 -- mdbook
+modifier-0.1.0 -- exa
+natord-1.0.9 -- exa
+nom-1.2.4 -- exa
+pest-1.0.6 -- mdbook
+precomputed-hash-0.1.1 -- mdbook
+regex-syntax-0.3.9 -- exa
+scoped_threadpool-0.1.9 -- exa
+sequence_trie-0.3.5 -- mdbook
+serde-0.9.15 -- xi-core-lib
+siphasher-0.2.2 -- mdbook
+strum-0.9.0 -- mdbook
+traitobject-0.1.0 -- mdbook
+typeable-0.1.2 -- mdbook
+utf8-ranges-0.1.3 -- exa
 
 
 dependencies of debcargo
