@@ -22,8 +22,8 @@ what to remove from the list if it's not longer necessary.
 "-" means already done, pending upload. When they get ACCEPTED you can rm from here.
 
 cc-1.0.17
-crossbeam-0.3.2
-foreign-types-shared-0.1.1
+-crossbeam-0.3.2
+-foreign-types-shared-0.1.1
 fuchsia-zircon-sys-0.3.3
 lazycell-0.6.0
 matches-0.1.6
