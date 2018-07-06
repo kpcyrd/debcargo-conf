@@ -104,7 +104,7 @@ semver-parser v0.7.0
 semver v0.9.0
 utf8-ranges v1.0.0
 void v1.0.2
-unreachable v1.0.0
+- unreachable v1.0.0
 lazy_static v1.0.1
 thread_local v0.3.5
 ucd-util v0.1.1
