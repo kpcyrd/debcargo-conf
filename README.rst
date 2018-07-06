@@ -3,32 +3,40 @@ Instructions
 
 ``cargo install debcargo``, then for each new package:
 
-**To package a new crate:**
+**To package a new crate, or to update an existing crate:**
 
-$ ``./new-package.sh <rust-crate-name>`` and follow its instructions.
+$ ``./new-package.sh <rust-crate-name>``
 
-**To update a crate:**
+or
 
 $ ``./update.sh <rust-crate-name>``
 
-Note that new-package.sh is just a symlink to update.sh. This has been created
-to help new comers.
+and follow its instructions.
+
+Note that new-package.sh is just a symlink to update.sh, to help newcomers.
 
 **To package an older version of a crate:**
 
+To maintain an old version of a crate alongside the latest one, first make sure
+the latest version is packaged by doing all of the above, then run:
+
+$ ``./new-package.sh <rust-crate-name> <old-version>``
+
+or
+
 $ ``./update.sh <rust-crate-name> <old-version>``
 
-To maintain an old version of a crate alongside the latest one, first
-make sure the latest version is packaged by doing all of the above, then run
-the command above and copy anything relevant from the config directory
-for the latest version, to that for the old version.
+and follow its instructions. To make this easier, you can start by copying
+anything relevant from ``src/<rust-crate-name>`` to
+``src/<rust-crate-name>-<old-version>``, then adapting it as needed.
 
 **To prepare the release:**
 
 $ ``./release.sh <rust-crate-name>``
 
-This will prepare the necessary Debian files in build/. It will also creating a
-git branch to manage the packaging until it is accepted in Debian itself.
+This will prepare the necessary Debian files in ``build/``. It will also create
+a git branch to manage the packaging until it is accepted in Debian itself.
+
 
 NEWS
 ====
