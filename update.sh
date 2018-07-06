@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ $# -ne 1 -o $# -ne 2 ]; then
+if [ $# -ne 1 -a $# -ne 2 ]; then
     echo "Incorrect syntax."
     echo "Syntax:"
     echo "$0 <rust-crate-name>"
