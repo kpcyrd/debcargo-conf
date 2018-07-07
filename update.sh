@@ -67,6 +67,9 @@ and directly git-add without editing:
 When done, git-add all your changes plus any unmodified hint files, and re-run
 this command (\`./update.sh $*\`).
 
+For issues with debian/control, edit src/$PKGNAME/debian/debcargo.toml instead.
+You can find docs for that in debcargo.toml.example in the debcargo git repo.
+
 Check that your fixes actually get rid of the FIXMEs. Of course, you can ignore
 FIXMEs listed in hint files, assuming you actually fixed the issues in the
 corresponding non-hint files. (We have no way to auto-detect this so you have
