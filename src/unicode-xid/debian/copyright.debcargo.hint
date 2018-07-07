@@ -1,12 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: unicode-xid
-Upstream-Contact: erick.tryzelaar <erick.tryzelaar@gmail.com>
+Upstream-Contact:
+ erick.tryzelaar <erick.tryzelaar@gmail.com>
  kwantam <kwantam@gmail.com>
 Source: https://github.com/unicode-rs/unicode-xid
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN erick.tryzelaar <erick.tryzelaar@gmail.com>
- FIXME (overlay) UNKNOWN kwantam <kwantam@gmail.com>
+Copyright:
+ FIXME (overlay) UNKNOWN-YEARS erick.tryzelaar <erick.tryzelaar@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS kwantam <kwantam@gmail.com>
 License: MIT or Apache-2.0
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -16,42 +18,45 @@ Comment:
 
 Files: ./LICENSE-MIT
 Copyright: 2015 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./scripts/unicode.py
-Copyright: 2012-2015 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+Copyright:
+ 2011-2015 The Rust Project Developers
+ 2012-2015 The Rust Project Developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/lib.rs
 Copyright: 2012-2015 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/tables.rs
 Copyright: 2012-2015 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/tests.rs
 Copyright: 2012-2015 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: MIT or Apache-2.0
 
 License: Apache-2.0
@@ -76,6 +81,3 @@ License: MIT
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-
-
-

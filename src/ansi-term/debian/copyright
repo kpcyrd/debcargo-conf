@@ -1,6 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ansi_term
-Upstream-Contact: Benjamin Sago <ogham@bsago.me>, Ryan Scheel (Havvy) <ryan.havvy@gmail.com>, Josh Triplett <josh@joshtriplett.org>
+Upstream-Contact:
+ Benjamin Sago <ogham@bsago.me>
+ Ryan Scheel (Havvy) <ryan.havvy@gmail.com>
+ Josh Triplett <josh@joshtriplett.org>
 
 Files: *
 Copyright: 2014-2018 Benjamin Sago <ogham@bsago.me>

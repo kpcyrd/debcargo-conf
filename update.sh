@@ -24,8 +24,9 @@ if [ ! -f "$PKGDIR/debian/copyright" ]; then
 	You may find the following useful too:
 
 	Files: debian/*
-	Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-	           2018 $DEBFULLNAME <$DEBEMAIL>
+	Copyright:
+	 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+	 2018 $DEBFULLNAME <$DEBEMAIL>
 
 	The reason we don't put this in debian/copyright.debcargo.hint itself is
 	documented here: https://salsa.debian.org/rust-team/debcargo-conf/issues/5

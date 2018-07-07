@@ -1,13 +1,15 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ansi_term
-Upstream-Contact: ogham@bsago.me
+Upstream-Contact:
+ ogham@bsago.me
  Ryan Scheel (Havvy) <ryan.havvy@gmail.com>
  Josh Triplett <josh@joshtriplett.org>
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN ogham@bsago.me
- FIXME (overlay) UNKNOWN Ryan Scheel (Havvy) <ryan.havvy@gmail.com>
- FIXME (overlay) UNKNOWN Josh Triplett <josh@joshtriplett.org>
+Copyright:
+ FIXME (overlay) UNKNOWN-YEARS ogham@bsago.me
+ FIXME (overlay) UNKNOWN-YEARS Ryan Scheel (Havvy) <ryan.havvy@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS Josh Triplett <josh@joshtriplett.org>
 License: MIT
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -17,14 +19,15 @@ Comment:
 
 Files: ./LICENCE
 Copyright: 2014 Benjamin Sago
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: MIT
 
 License: MIT
@@ -45,6 +48,3 @@ License: MIT
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-
-
-
