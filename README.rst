@@ -22,18 +22,20 @@ the latest version is packaged by doing all of the above, then run:
 | $ ``./update.sh <rust-crate-name> <old-version>``
 |
 
-and follow its instructions. To make this easier, you can start by copying
-anything relevant from ``src/<rust-crate-name>`` to
-``src/<rust-crate-name>-<old-version>``, then adapting it as needed.
+and follow its instructions. To save time, you can first copy anything relevant
+from ``src/<rust-crate-name>`` to ``src/<rust-crate-name>-<old-version>``, then
+adapt it as needed.
 
-**To prepare the release:**
+**To prepare a release:**
 
-| $ ``./release.sh <rust-crate-name>``
+| $ ``./release.sh <rust-crate-name>``, or
+| $ ``./release.sh <rust-crate-name> <old-version>`` as appropriate
 |
 
-This prepares the necessary Debian files in ``build/``. It also creates a git
-branch to manage the packaging until it is accepted in Debian itself. More
-specific instructions are given to you, when you run the script.
+This prepares the necessary Debian files in ``build/``, and creates a git
+branch to manage the packaging until it is accepted in Debian itself. You need
+to run additional commands after this - more specific instructions are given to
+you about this, by the script after you run it.
 
 
 NEWS
