@@ -30,13 +30,13 @@ lazycell-0.6.0
 number_prefix-0.2.8
 openssl-probe-0.1.2
 percent-encoding-1.0.1
-quick-error-1.2.2
+-quick-error-1.2.2
 quote-0.3.15
-redox_syscall-0.1.40
+-redox_syscall-0.1.40
 regex-syntax-0.4.2
 regex-syntax-0.5.6
 rustc-demangle-0.1.8
-scopeguard-0.3.3
+-scopeguard-0.3.3
 - shlex-0.1.1
 - string_cache_shared-0.3.0
 - strsim-0.7.0
@@ -94,7 +94,7 @@ bitflags v1.0.3
 fuchsia-zircon v0.3.3
 rand v0.4.2
 tempdir v0.3.7
-xattr v0.2.1
+- xattr v0.2.1
 redox_syscall v0.1.40
 filetime v0.2.1
 tar v0.4.15
