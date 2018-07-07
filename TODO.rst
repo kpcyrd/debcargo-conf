@@ -27,6 +27,7 @@ cc-1.0.17
 fuchsia-zircon-sys-0.3.3
 lazycell-0.6.0
 matches-0.1.6
+number_prefix-0.2.8
 openssl-probe-0.1.2
 percent-encoding-1.0.1
 quick-error-1.2.2
@@ -56,21 +57,22 @@ lazy_static-0.2.11 -- exa
 mac-0.1.1 -- mdbook
 maplit-1.0.1 -- mdbook
 modifier-0.1.0 -- exa
-natord-1.0.9 -- exa
+-- natord-1.0.9 -- exa
 nom-1.2.4 -- exa
 open-1.2.1 -- mdbook
 pest-1.0.6 -- mdbook
 precomputed-hash-0.1.1 -- mdbook
 regex-syntax-0.3.9 -- exa
-scoped_threadpool-0.1.9 -- exa
+- scoped_threadpool-0.1.9 -- exa
 sequence_trie-0.3.5 -- mdbook
 serde-0.9.15 -- xi-core-lib
 siphasher-0.2.2 -- mdbook
 strum-0.9.0 -- mdbook
+- term-grid-0.1.7 - exa
 traitobject-0.1.0 -- mdbook
 typeable-0.1.2 -- mdbook
 utf8-ranges-0.1.3 -- exa
-
+- users-0.7.0 -- exa
 
 dependencies of debcargo
 ------------------------
