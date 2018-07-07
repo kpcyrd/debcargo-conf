@@ -1,6 +1,8 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: serde
-Upstream-Contact: Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>
+Upstream-Contact:
+ Erick Tryzelaar <erick.tryzelaar@gmail.com>
+ David Tolnay <dtolnay@gmail.com>
 Source: https://github.com/serde-rs/serde
 
 Files: *

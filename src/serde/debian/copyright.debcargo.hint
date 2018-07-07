@@ -1,12 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: serde
-Upstream-Contact: Erick Tryzelaar <erick.tryzelaar@gmail.com>
+Upstream-Contact:
+ Erick Tryzelaar <erick.tryzelaar@gmail.com>
  David Tolnay <dtolnay@gmail.com>
 Source: https://github.com/serde-rs/serde
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN Erick Tryzelaar <erick.tryzelaar@gmail.com>
- FIXME (overlay) UNKNOWN David Tolnay <dtolnay@gmail.com>
+Copyright:
+ FIXME (overlay) UNKNOWN-YEARS Erick Tryzelaar <erick.tryzelaar@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS David Tolnay <dtolnay@gmail.com>
 License: MIT or Apache-2.0
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -16,126 +18,127 @@ Comment:
 
 Files: ./LICENSE-MIT
 Copyright: 2014 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/de/from_primitive.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/de/ignored_any.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/de/impls.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/de/mod.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/de/utf8.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/de/value.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/export.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/lib.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/macros.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/private/de.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/private/macros.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/private/mod.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/private/ser.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/ser/impls.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/ser/impossible.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/ser/mod.rs
 Copyright: 2017 Serde Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: MIT or Apache-2.0
 
 License: Apache-2.0
@@ -160,6 +163,3 @@ License: MIT
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-
-
-
