@@ -1,12 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: quick-error
-Upstream-Contact: Paul Colomiets <paul@colomiets.name>
+Upstream-Contact:
+ Paul Colomiets <paul@colomiets.name>
  Colin Kiegel <kiegel@gmx.de>
 Source: http://github.com/tailhook/quick-error
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN Paul Colomiets <paul@colomiets.name>
- FIXME (overlay) UNKNOWN Colin Kiegel <kiegel@gmx.de>
+Copyright:
+ FIXME (overlay) UNKNOWN-YEARS Paul Colomiets <paul@colomiets.name>
+ FIXME (overlay) UNKNOWN-YEARS Colin Kiegel <kiegel@gmx.de>
 License: MIT or Apache-2.0
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -16,14 +18,15 @@ Comment:
 
 Files: ./LICENSE-MIT
 Copyright: 2015 The quick-error Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: MIT or Apache-2.0
 
 License: Apache-2.0

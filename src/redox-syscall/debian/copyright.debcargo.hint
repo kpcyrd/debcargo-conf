@@ -4,7 +4,7 @@ Upstream-Contact: Jeremy Soller <jackpot51@gmail.com>
 Source: https://github.com/redox-os/syscall
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN Jeremy Soller <jackpot51@gmail.com>
+Copyright: FIXME (overlay) UNKNOWN-YEARS Jeremy Soller <jackpot51@gmail.com>
 License: MIT
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -14,14 +14,15 @@ Comment:
 
 Files: ./LICENSE
 Copyright: 2017 Redox OS Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: MIT
 
 License: MIT

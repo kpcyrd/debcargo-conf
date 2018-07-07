@@ -4,7 +4,7 @@ Upstream-Contact: bluss
 Source: https://github.com/bluss/scopeguard
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN bluss
+Copyright: FIXME (overlay) UNKNOWN-YEARS bluss
 License: MIT or Apache-2.0
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -14,14 +14,15 @@ Comment:
 
 Files: ./LICENSE-MIT
 Copyright: 2015 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: MIT or Apache-2.0
 
 License: Apache-2.0

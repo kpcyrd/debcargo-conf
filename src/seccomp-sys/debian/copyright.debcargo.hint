@@ -4,7 +4,7 @@ Upstream-Contact: Alexander Polakov <apolyakov@beget.ru>
 Source: https://github.com/polachok/seccomp-sys
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN Alexander Polakov <apolyakov@beget.ru>
+Copyright: FIXME (overlay) UNKNOWN-YEARS Alexander Polakov <apolyakov@beget.ru>
 License: LGPL-2.1
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -13,8 +13,9 @@ Comment:
  the archive.
 
 Files: debian/*
-Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: LGPL-2.1
 
 License: LGPL-2.1
