@@ -27,6 +27,7 @@ cc-1.0.17
 fuchsia-zircon-sys-0.3.3
 lazycell-0.6.0
 matches-0.1.6
+number_prefix-0.2.8
 openssl-probe-0.1.2
 percent-encoding-1.0.1
 quick-error-1.2.2
