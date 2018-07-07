@@ -26,7 +26,7 @@ cc-1.0.17
 -foreign-types-shared-0.1.1
 fuchsia-zircon-sys-0.3.3
 lazycell-0.6.0
-matches-0.1.6
+- matches-0.1.6
 number_prefix-0.2.8
 openssl-probe-0.1.2
 percent-encoding-1.0.1
@@ -117,7 +117,6 @@ either v1.5.0
 itertools v0.7.8
 glob v0.2.11
 percent-encoding v1.0.1
-matches v0.1.6
 unicode-bidi v0.3.4
 idna v0.1.4
 url v1.7.0
