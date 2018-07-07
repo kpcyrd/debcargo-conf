@@ -1,6 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: vec_map
-Upstream-Contact: Alex Crichton <alex@alexcrichton.com>, Jorge Aparicio <japaricious@gmail.com>, The Rust Project Developers
+Upstream-Contact:
+ Alex Crichton <alex@alexcrichton.com>
+ Jorge Aparicio <japaricious@gmail.com>
+ The Rust Project Developers
 Source: https://github.com/contain-rs/vec-map
 
 Files: *

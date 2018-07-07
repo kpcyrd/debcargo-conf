@@ -4,7 +4,7 @@ Upstream-Contact: Aaron Turon <aturon@mozilla.com>
 Source: https://github.com/crossbeam-rs/crossbeam
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN Aaron Turon <aturon@mozilla.com>
+Copyright: FIXME (overlay) UNKNOWN-YEARS Aaron Turon <aturon@mozilla.com>
 License: Apache-2.0 or MIT
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -14,28 +14,29 @@ Comment:
 
 Files: ./LICENSE-MIT
 Copyright: 2015 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/bin/extra_impls/mpsc_queue.rs
 Copyright: 2010-2011 Dmitry Vyukov. All rights reserved.
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/sync/chase_lev.rs
 Copyright: 2013 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: Apache-2.0 or MIT
 
 License: Apache-2.0

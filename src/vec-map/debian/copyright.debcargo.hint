@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: vec_map
-Upstream-Contact: Alex Crichton <alex@alexcrichton.com>
+Upstream-Contact:
+ Alex Crichton <alex@alexcrichton.com>
  Jorge Aparicio <japaricious@gmail.com>
  Alexis Beingessner <a.beingessner@gmail.com>
  Brian Anderson <>
@@ -29,32 +30,33 @@ Upstream-Contact: Alex Crichton <alex@alexcrichton.com>
 Source: https://github.com/contain-rs/vec-map
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN Alex Crichton <alex@alexcrichton.com>
- FIXME (overlay) UNKNOWN Jorge Aparicio <japaricious@gmail.com>
- FIXME (overlay) UNKNOWN Alexis Beingessner <a.beingessner@gmail.com>
- FIXME (overlay) UNKNOWN Brian Anderson <>
- FIXME (overlay) UNKNOWN tbu- <>
- FIXME (overlay) UNKNOWN Manish Goregaokar <>
- FIXME (overlay) UNKNOWN Aaron Turon <aturon@mozilla.com>
- FIXME (overlay) UNKNOWN Adolfo Ochagavía <>
- FIXME (overlay) UNKNOWN Niko Matsakis <>
- FIXME (overlay) UNKNOWN Steven Fackler <>
- FIXME (overlay) UNKNOWN Chase Southwood <csouth3@illinois.edu>
- FIXME (overlay) UNKNOWN Eduard Burtescu <>
- FIXME (overlay) UNKNOWN Florian Wilkens <>
- FIXME (overlay) UNKNOWN Félix Raimundo <>
- FIXME (overlay) UNKNOWN Tibor Benke <>
- FIXME (overlay) UNKNOWN Markus Siemens <markus@m-siemens.de>
- FIXME (overlay) UNKNOWN Josh Branchaud <jbranchaud@gmail.com>
- FIXME (overlay) UNKNOWN Huon Wilson <dbau.pp@gmail.com>
- FIXME (overlay) UNKNOWN Corey Farwell <coref@rwell.org>
- FIXME (overlay) UNKNOWN Aaron Liblong <>
- FIXME (overlay) UNKNOWN Nick Cameron <nrc@ncameron.org>
- FIXME (overlay) UNKNOWN Patrick Walton <pcwalton@mimiga.net>
- FIXME (overlay) UNKNOWN Felix S Klock II <>
- FIXME (overlay) UNKNOWN Andrew Paseltiner <apaseltiner@gmail.com>
- FIXME (overlay) UNKNOWN Sean McArthur <sean.monstar@gmail.com>
- FIXME (overlay) UNKNOWN Vadim Petrochenkov <>
+Copyright:
+ FIXME (overlay) UNKNOWN-YEARS Alex Crichton <alex@alexcrichton.com>
+ FIXME (overlay) UNKNOWN-YEARS Jorge Aparicio <japaricious@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS Alexis Beingessner <a.beingessner@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS Brian Anderson <>
+ FIXME (overlay) UNKNOWN-YEARS tbu- <>
+ FIXME (overlay) UNKNOWN-YEARS Manish Goregaokar <>
+ FIXME (overlay) UNKNOWN-YEARS Aaron Turon <aturon@mozilla.com>
+ FIXME (overlay) UNKNOWN-YEARS Adolfo Ochagavía <>
+ FIXME (overlay) UNKNOWN-YEARS Niko Matsakis <>
+ FIXME (overlay) UNKNOWN-YEARS Steven Fackler <>
+ FIXME (overlay) UNKNOWN-YEARS Chase Southwood <csouth3@illinois.edu>
+ FIXME (overlay) UNKNOWN-YEARS Eduard Burtescu <>
+ FIXME (overlay) UNKNOWN-YEARS Florian Wilkens <>
+ FIXME (overlay) UNKNOWN-YEARS Félix Raimundo <>
+ FIXME (overlay) UNKNOWN-YEARS Tibor Benke <>
+ FIXME (overlay) UNKNOWN-YEARS Markus Siemens <markus@m-siemens.de>
+ FIXME (overlay) UNKNOWN-YEARS Josh Branchaud <jbranchaud@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS Huon Wilson <dbau.pp@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS Corey Farwell <coref@rwell.org>
+ FIXME (overlay) UNKNOWN-YEARS Aaron Liblong <>
+ FIXME (overlay) UNKNOWN-YEARS Nick Cameron <nrc@ncameron.org>
+ FIXME (overlay) UNKNOWN-YEARS Patrick Walton <pcwalton@mimiga.net>
+ FIXME (overlay) UNKNOWN-YEARS Felix S Klock II <>
+ FIXME (overlay) UNKNOWN-YEARS Andrew Paseltiner <apaseltiner@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS Sean McArthur <sean.monstar@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS Vadim Petrochenkov <>
 License: MIT or Apache-2.0
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -64,21 +66,22 @@ Comment:
 
 Files: ./LICENSE-MIT
 Copyright: 2015 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/lib.rs
 Copyright: 2012-2018 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: MIT or Apache-2.0
 
 License: Apache-2.0
@@ -103,6 +106,3 @@ License: MIT
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-
-
-

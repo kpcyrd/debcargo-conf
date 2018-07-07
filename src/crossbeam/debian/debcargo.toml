@@ -1,2 +1,3 @@
 overlay = "."
 bin = false
+summary = "Support for concurrent and parallel programming"
