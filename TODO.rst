@@ -72,7 +72,7 @@ strum-0.9.0 -- mdbook
 traitobject-0.1.0 -- mdbook
 typeable-0.1.2 -- mdbook
 utf8-ranges-0.1.3 -- exa
-
+- users-0.7.0 -- exa
 
 dependencies of debcargo
 ------------------------
