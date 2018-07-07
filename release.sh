@@ -45,8 +45,13 @@ git add debian/changelog
 rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-${PKGNAME}_$VER"*.orig.tar.*
 $DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" --changelog-ready "$CRATE" "$VER"
 
-git diff --exit-code -- "$PKGDIR_REL" || \
-abort 1 "Release attempt resulted in git diffs to $PKGDIR_REL. Check it, git add or reset as appropriate, and re-run this again."
+if ! git diff --exit-code -- "$PKGDIR_REL"; then
+	git reset
+	git checkout -- "$PKGDIR/debian/changelog"
+	git checkout "$PREVBRANCH"
+	git branch -d "$RELBRANCH"
+	abort 1 "Release attempt resulted in git diffs to $PKGDIR_REL, probably the package needs updating (./update.sh $*)"
+fi
 
 git commit -m "Release package $PKGNAME"
 
