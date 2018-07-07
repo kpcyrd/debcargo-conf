@@ -68,6 +68,7 @@ sequence_trie-0.3.5 -- mdbook
 serde-0.9.15 -- xi-core-lib
 siphasher-0.2.2 -- mdbook
 strum-0.9.0 -- mdbook
+- term-grid-0.1.7 - exa
 traitobject-0.1.0 -- mdbook
 typeable-0.1.2 -- mdbook
 utf8-ranges-0.1.3 -- exa
