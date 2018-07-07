@@ -57,7 +57,7 @@ lazy_static-0.2.11 -- exa
 mac-0.1.1 -- mdbook
 maplit-1.0.1 -- mdbook
 modifier-0.1.0 -- exa
-natord-1.0.9 -- exa
+-- natord-1.0.9 -- exa
 nom-1.2.4 -- exa
 open-1.2.1 -- mdbook
 pest-1.0.6 -- mdbook
