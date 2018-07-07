@@ -63,7 +63,7 @@ open-1.2.1 -- mdbook
 pest-1.0.6 -- mdbook
 precomputed-hash-0.1.1 -- mdbook
 regex-syntax-0.3.9 -- exa
-scoped_threadpool-0.1.9 -- exa
+- scoped_threadpool-0.1.9 -- exa
 sequence_trie-0.3.5 -- mdbook
 serde-0.9.15 -- xi-core-lib
 siphasher-0.2.2 -- mdbook
