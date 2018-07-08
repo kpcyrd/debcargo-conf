@@ -6,7 +6,6 @@ set -e
 git fetch origin --prune
 comm -13 \
  <(curl -s https://ftp-master.debian.org/new.html | \
-   sed -n -e '1,/<td class="package">'"$1"'<\/td>/p' | \
    grep '<td class="package">rust-' | \
    sed -nre 's/.*\brust-([-A-Za-z0-9]+)\b.*/\1/gp' | \
    sort) \
