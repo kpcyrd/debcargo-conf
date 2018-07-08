@@ -114,13 +114,10 @@ Some versions might be out-of-date::
 
     same-file v1.0.2
     walkdir v2.1.4
-    serde v1.0.66
     - toml v0.4.6
     - textwrap v0.10.0
     remove_dir_all v0.5.1
-    libc v0.2.42
     fuchsia-zircon-sys v0.3.3
-    bitflags v1.0.3
     fuchsia-zircon v0.3.3
     rand v0.4.2
     tempdir v0.3.7
@@ -132,20 +129,13 @@ Some versions might be out-of-date::
     quote v0.6.3
     syn v0.14.2
     serde_derive v1.0.66
-    semver-parser v0.7.0
     semver v0.9.0
-    utf8-ranges v1.0.0
-    void v1.0.2
     - unreachable v1.0.0
-    lazy_static v1.0.1
     thread_local v0.3.5
-    regex-syntax v0.6.0
     - memchr v2.0.1
     aho-corasick v0.6.4 (waiting for librust-memchr-2)
     regex v1.0.0
-    either v1.5.0
     itertools v0.7.8
-    glob v0.2.11
     percent-encoding v1.0.1
     unicode-bidi v0.3.4
     idna v0.1.4
@@ -172,7 +162,6 @@ Some versions might be out-of-date::
     backtrace-sys v0.1.23
     backtrace v0.3.8
     failure v0.1.1
-    vec_map v0.8.1
     textwrap v0.9.0
     strsim v0.7.0
     redox_termios v0.1.1
@@ -181,14 +170,11 @@ Some versions might be out-of-date::
     ansi_term v0.11.0
     clap v2.31.2
     time v0.1.40
-    num-traits v0.2.4
     num-integer v0.1.38
     chrono v0.4.2
     wincolor v0.1.6
     termcolor v0.3.6
     tempfile v3.0.2
-    itoa v0.4.1
-    dtoa v0.4.2
     serde_json v1.0.19
     serde_ignored v0.0.4
     - num_cpus v1.8.0
@@ -198,13 +184,11 @@ Some versions might be out-of-date::
     jobserver v0.1.11
     regex-syntax v0.5.6
     regex v0.2.11
-    fnv v1.0.6
     globset v0.4.0
     crossbeam v0.3.2
     ignore v0.4.2
     scopeguard v0.3.3
     home v0.3.3
-    hex v0.3.2
     winapi v0.2.8
     schannel v0.1.12
     kernel32-sys v0.2.2
