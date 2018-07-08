@@ -1,0 +1,18 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xi-unicode
+Upstream-Contact: Raph Levien <raph@google.com>
+Source: https://github.com/google/xi-editor
+
+Files: *
+Copyright: 2016-2017 Google Inc.
+License: Apache-2.0
+
+Files: debian/*
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 kpcyrd <git@rxv.cc>
+License: Apache-2.0
+
+License: Apache-2.0
+ Debian systems provide the Apache 2.0 license in
+ /usr/share/common-licenses/Apache-2.0

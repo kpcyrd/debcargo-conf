@@ -1,0 +1,2 @@
+overlay = "."
+excludes = ["tools/**"]
