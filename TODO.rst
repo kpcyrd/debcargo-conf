@@ -122,10 +122,10 @@ Some versions might be out-of-date::
     rand v0.4.2
     tempdir v0.3.7
     - xattr v0.2.1
-    redox_syscall v0.1.40
+    - redox_syscall v0.1.40
     filetime v0.2.1
     tar v0.4.15
-    proc-macro2 v0.4.5
+    - proc-macro2 v0.4.5
     quote v0.6.3
     syn v0.14.2
     serde_derive v1.0.66
@@ -133,7 +133,7 @@ Some versions might be out-of-date::
     - unreachable v1.0.0
     thread_local v0.3.5
     - memchr v2.0.1
-    aho-corasick v0.6.4 (waiting for librust-memchr-2)
+    - aho-corasick v0.6.4 (waiting for librust-memchr-2)
     regex v1.0.0
     itertools v0.7.8
     percent-encoding v1.0.1
@@ -141,10 +141,10 @@ Some versions might be out-of-date::
     idna v0.1.4
     url v1.7.0
     vcpkg v0.2.3
-    cc v1.0.17
+    - cc v1.0.17
     openssl-sys v0.9.32
-    openssl-probe v0.1.2
-    log v0.4.1 (waiting for cfg-id to be ACCEPTED)
+    - openssl-probe v0.1.2
+    - log v0.4.1 (waiting for cfg-id to be ACCEPTED)
     cmake v0.1.31
     libz-sys v1.0.18
     libssh2-sys v0.2.7
@@ -158,24 +158,24 @@ Some versions might be out-of-date::
     syn v0.11.11
     synstructure v0.6.1
     failure_derive v0.1.1
-    rustc-demangle v0.1.8
+    - rustc-demangle v0.1.8
     backtrace-sys v0.1.23
     backtrace v0.3.8
     failure v0.1.1
-    textwrap v0.9.0
-    strsim v0.7.0
+    - textwrap v0.9.0
+    - strsim v0.7.0
     redox_termios v0.1.1
     termion v1.5.1
     atty v0.2.10
-    ansi_term v0.11.0
+    - ansi_term v0.11.0
     clap v2.31.2
     time v0.1.40
     num-integer v0.1.38
     chrono v0.4.2
-    wincolor v0.1.6
+    - wincolor v0.1.6
     termcolor v0.3.6
     tempfile v3.0.2
-    serde_json v1.0.19
+    - serde_json v1.0.19
     serde_ignored v0.0.4
     - num_cpus v1.8.0
     socket2 v0.3.6
@@ -184,10 +184,10 @@ Some versions might be out-of-date::
     jobserver v0.1.11
     regex-syntax v0.5.6
     regex v0.2.11
-    globset v0.4.0
-    crossbeam v0.3.2
+    - globset v0.4.0
+    - crossbeam v0.3.2
     ignore v0.4.2
-    scopeguard v0.3.3
+    - scopeguard v0.3.3
     home v0.3.3
     winapi v0.2.8
     schannel v0.1.12
@@ -196,10 +196,10 @@ Some versions might be out-of-date::
     git2-curl v0.8.1
     fs2 v0.4.3
     filetime v0.1.15
-    quick-error v1.2.2
+    - quick-error v1.2.2
     humantime v1.1.1
     env_logger v0.5.10
-    foreign-types-shared v0.1.1
+    - foreign-types-shared v0.1.1
     foreign-types v0.3.2
     openssl v0.10.9
     commoncrypto-sys v0.2.0
