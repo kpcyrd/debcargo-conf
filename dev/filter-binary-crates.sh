@@ -1,5 +1,6 @@
 #!/bin/bash
 # Filter list of crates by whether they're a binary crate.
+set -e
 
 while read crate; do
 	if debcargo extract "$crate" >/dev/null 2>/dev/null; then

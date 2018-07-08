@@ -1,6 +1,7 @@
 #!/bin/bash
 # Filter list of crates by whether they're not in Debian.
 # You need to have an up-to-date APT cache for Debian unstable.
+set -e
 
 while read crate; do
 	pkg="${crate//_/-}"
