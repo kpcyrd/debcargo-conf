@@ -54,21 +54,21 @@ what to remove from the list if it's not longer necessary.
 
 "-" means already done, pending upload. When they get ACCEPTED you can rm from here::
 
-    cc-1.0.17
+    - cc-1.0.17
     - crossbeam-0.3.2
     - foreign-types-shared-0.1.1
     fuchsia-zircon-sys-0.3.3
     lazycell-0.6.0
     - matches-0.1.6
     number_prefix-0.2.8
-    openssl-probe-0.1.2
+    - openssl-probe-0.1.2
     percent-encoding-1.0.1
     - quick-error-1.2.2
     quote-0.3.15
     - redox_syscall-0.1.40
     regex-syntax-0.4.2
     regex-syntax-0.5.6
-    rustc-demangle-0.1.8
+    - rustc-demangle-0.1.8
     - scopeguard-0.3.3
     - strsim-0.7.0
     vcpkg-0.2.4
@@ -112,13 +112,10 @@ dependencies of debcargo
 Roughly in dependency order, i.e. earlier packages have less dependencies.
 Some versions might be out-of-date::
 
-    winapi-x86_64-pc-windows-gnu v0.4.0
-    winapi-i686-pc-windows-gnu v0.4.0
-    winapi v0.3.4
     same-file v1.0.2
     walkdir v2.1.4
     serde v1.0.66
-    toml v0.4.6
+    - toml v0.4.6
     - textwrap v0.10.0
     remove_dir_all v0.5.1
     libc v0.2.42
