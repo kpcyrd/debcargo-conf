@@ -1,0 +1,10 @@
+overlay = "."
+
+[packages.bin]
+section = "text"
+summary = "A simple command-line tool for rendering CommonMark to HTML"
+description = """
+pulldown-cmark is a pull parser library for CommonMark, written in Rust. This
+package contains a simple command-line tool for rendering to HTML, based on the
+library.
+"""
