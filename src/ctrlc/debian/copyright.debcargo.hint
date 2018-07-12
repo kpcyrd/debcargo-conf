@@ -1,0 +1,106 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ctrlc
+Upstream-Contact:
+ Antti Keränen <detegr@gmail.com>
+ nabijaczleweli <nabijaczleweli@gmail.com>
+ Henning Ottesen <henning@live.no>
+ Peter Atashian <retep998@gmail.com>
+Source: https://github.com/Detegr/rust-ctrlc.git
+
+Files: *
+Copyright:
+ FIXME (overlay) UNKNOWN-YEARS Antti Keränen <detegr@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS nabijaczleweli <nabijaczleweli@gmail.com>
+ FIXME (overlay) UNKNOWN-YEARS Henning Ottesen <henning@live.no>
+ FIXME (overlay) UNKNOWN-YEARS Peter Atashian <retep998@gmail.com>
+License: MIT or Apache-2.0
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: ./LICENSE-APACHE
+Copyright: 2017 CtrlC developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./examples/readme_example.rs
+Copyright: 2015 CtrlC developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/lib.rs
+Copyright: 2017 CtrlC developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/platform/mod.rs
+Copyright: 2017 CtrlC developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/platform/unix/mod.rs
+Copyright: 2017 CtrlC developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/platform/windows/mod.rs
+Copyright: 2017 CtrlC developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/signal.rs
+Copyright: 2017 CtrlC developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/tests.rs
+Copyright: 2017 CtrlC developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: debian/*
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
+License: MIT or Apache-2.0
+
+License: Apache-2.0
+ Debian systems provide the Apache 2.0 license in
+ /usr/share/common-licenses/Apache-2.0
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
