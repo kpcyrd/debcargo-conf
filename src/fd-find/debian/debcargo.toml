@@ -1,0 +1,26 @@
+overlay = "."
+
+[source]
+
+section = "utils"
+
+[packages.bin]
+
+summary = "Simple, fast and user-friendly alternative to find"
+
+description = """
+While it does not seek to mirror all of find's powerful functionality,
+fd provides sensible (opinionated) defaults for 80% of the use cases.
+
+Features:
+
+ * Convenient syntax: ‘fd PATTERN’ instead of ‘find -iname '*PATTERN*'’.
+ * Colorized terminal output (similar to ls).
+ * It's fast, often faster than find.
+ * Smart case.
+ * Ignores hidden directories and files, by default.
+ * Ignores patterns from your .gitignore, by default.
+ * Regular expressions.
+ * Unicode-awareness.
+ * Parallel command execution with a syntax similar to GNU Parallel.
+"""
