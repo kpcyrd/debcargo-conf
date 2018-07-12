@@ -29,6 +29,10 @@ Current output (on 2018-07-08) is:
 - varlink
 - varlink-cli
 
+There are also more binaries here:
+
+https://github.com/rust-unofficial/awesome-rust
+
 
 Immediate goals
 ===============
