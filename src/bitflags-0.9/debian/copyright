@@ -8,7 +8,9 @@ Copyright: 2014-2017 The Rust Project Developers
 License: MIT or Apache-2.0
 
 Files: debian/*
-Copyright: 2018 Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 Wolfgang Silbermayr <wolfgang@silbermayr.at>
 License: MIT or Apache-2.0
 
 License: Apache-2.0

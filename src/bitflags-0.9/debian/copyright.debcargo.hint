@@ -4,7 +4,7 @@ Upstream-Contact: The Rust Project Developers
 Source: https://github.com/rust-lang-nursery/bitflags
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN The Rust Project Developers
+Copyright: FIXME (overlay) UNKNOWN-YEARS The Rust Project Developers
 License: MIT or Apache-2.0
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -14,21 +14,22 @@ Comment:
 
 Files: ./LICENSE-MIT
 Copyright: 2014 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: ./src/lib.rs
 Copyright: 2014 The Rust Project Developers
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: MIT or Apache-2.0
 
 License: Apache-2.0
@@ -53,6 +54,3 @@ License: MIT
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-
-
-
