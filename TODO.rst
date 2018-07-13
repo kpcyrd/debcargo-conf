@@ -220,6 +220,7 @@ Nothing = Done
 Italic = Pending
 Bold = Remaining
 
+```
 ripgrep v0.8.1
 **├── atty v0.2.10**
 │   └── libc v0.2.40
@@ -284,4 +285,4 @@ ripgrep v0.8.1
 [build-dependencies]
 **├── clap v2.31.2 (*)**
 └── lazy_static v1.0.0 (*)
-
+```
