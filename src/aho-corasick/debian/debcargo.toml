@@ -1,5 +1,5 @@
 overlay = "."
 
-[source]
+[packages.bin]
 
 section = "utils"
