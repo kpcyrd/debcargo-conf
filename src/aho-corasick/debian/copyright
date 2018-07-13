@@ -6,11 +6,6 @@ Source: https://github.com/BurntSushi/aho-corasick
 Files: *
 Copyright: 2015 Andrew Gallant <jamslam@gmail.com>
 License: Unlicense or MIT
-Comment:
- FIXME (overlay): Since upstream copyright years are not available in
- Cargo.toml, they were extracted from the upstream Git repository. This may not
- be correct information so you should review and fix this before uploading to
- the archive.
 
 Files: debian/*
 Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>

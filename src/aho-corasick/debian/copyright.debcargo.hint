@@ -4,7 +4,7 @@ Upstream-Contact: Andrew Gallant <jamslam@gmail.com>
 Source: https://github.com/BurntSushi/aho-corasick
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN Andrew Gallant <jamslam@gmail.com>
+Copyright: FIXME (overlay) UNKNOWN-YEARS Andrew Gallant <jamslam@gmail.com>
 License: Unlicense or MIT
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -14,14 +14,15 @@ Comment:
 
 Files: ./LICENSE-MIT
 Copyright: 2015 Andrew Gallant
-License: UNKNOWN; FIXME (overlay)
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: Unlicense or MIT
 
 License: MIT
