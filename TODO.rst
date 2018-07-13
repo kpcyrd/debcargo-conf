@@ -114,7 +114,7 @@ Some versions might be out-of-date::
     syn v0.14.2
     serde_derive v1.0.66
     semver v0.9.0
-    thread_local v0.3.5
+    - thread_local v0.3.5
     regex v1.0.0
     itertools v0.7.8
     unicode-bidi v0.3.4
@@ -251,7 +251,7 @@ ripgrep v0.8.1
 
 │       │   └── ucd-util v0.1.1
 
-**│       ├── thread_local v0.3.5**
+*│       ├── thread_local v0.3.5*
 
 │       │   ├── lazy_static v1.0.0
 
@@ -287,7 +287,7 @@ ripgrep v0.8.1
 
 *│   ├── same-file v1.0.2*
 
-**│   ├── thread_local v0.3.5 (*)**
+*│   ├── thread_local v0.3.5 (*)*
 
 **│   └── walkdir v2.1.4**
 
