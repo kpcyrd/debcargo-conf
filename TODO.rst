@@ -119,7 +119,6 @@ Some versions might be out-of-date::
     same-file v1.0.2
     walkdir v2.1.4
     - toml v0.4.6
-    - textwrap v0.10.0
     remove_dir_all v0.5.1
     fuchsia-zircon-sys v0.3.3
     fuchsia-zircon v0.3.3
@@ -134,9 +133,7 @@ Some versions might be out-of-date::
     syn v0.14.2
     serde_derive v1.0.66
     semver v0.9.0
-    - unreachable v1.0.0
     thread_local v0.3.5
-    - memchr v2.0.1
     - aho-corasick v0.6.4 (waiting for librust-memchr-2)
     regex v1.0.0
     itertools v0.7.8
@@ -181,7 +178,6 @@ Some versions might be out-of-date::
     tempfile v3.0.2
     - serde_json v1.0.19
     serde_ignored v0.0.4
-    - num_cpus v1.8.0
     socket2 v0.3.6
     miow v0.3.1
     lazycell v0.6.0
