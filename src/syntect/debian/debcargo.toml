@@ -1,0 +1,4 @@
+overlay = "."
+
+# The auto-generated summary is too long.
+summary = "Syntax highlighting and code intelligence using Sublime Text's grammars"
