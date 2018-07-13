@@ -1,0 +1,18 @@
+overlay = "."
+
+[source]
+
+section = "utils"
+
+[packages.bin]
+
+summary = "cat(1) clone with syntax highlighting and git integration"
+
+description = """
+bat is a drop-in cat(1) replacement featuring:
+
+ * syntax highlighting for a large number of languages;
+ * git integration;
+ * automatic paging;
+ * a user-friendly command-line interface.
+"""
