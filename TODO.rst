@@ -209,3 +209,79 @@ Some versions might be out-of-date::
     core-foundation-sys v0.5.1
     core-foundation v0.5.1
     cargo v0.27.0
+
+dependencies of ripgrep
+-----------------------
+
+Generated with:
+$ cargo tree --all-features
+
+Nothing = Done
+Italic = Pending
+Bold = Remaining
+
+ripgrep v0.8.1
+**├── atty v0.2.10**
+│   └── libc v0.2.40
+├── bytecount v0.3.1
+**│   └── simd v0.2.2**
+**├── clap v2.31.2**
+*│   ├── ansi_term v0.11.0*
+**│   ├── atty v0.2.10 (*)**
+│   ├── bitflags v1.0.3
+*│   ├── strsim v0.7.0*
+│   ├── textwrap v0.9.0
+│   │   └── unicode-width v0.1.4
+│   └── unicode-width v0.1.4 (*)
+**├── encoding_rs v0.7.2**
+│   ├── cfg-if v0.1.3
+**│   └── simd v0.2.2 (*)**
+**├── globset v0.4.0**
+**│   ├── aho-corasick v0.6.4**
+│   │   └── memchr v2.0.1
+│   │       └── libc v0.2.40 (*)
+│   ├── fnv v1.0.6
+│   ├── log v0.4.1
+│   │   └── cfg-if v0.1.3 (*)
+│   ├── memchr v2.0.1 (*)
+**│   └── regex v1.0.1**
+**│       ├── aho-corasick v0.6.4 (*)**
+│       ├── memchr v2.0.1 (*)
+│       ├── regex-syntax v0.6.0
+│       │   └── ucd-util v0.1.1
+**│       ├── thread_local v0.3.5**
+│       │   ├── lazy_static v1.0.0
+│       │   └── unreachable v1.0.0
+│       │       └── void v1.0.2
+│       └── utf8-ranges v1.0.0
+**├── grep v0.1.8**
+│   ├── log v0.4.1 (*)
+│   ├── memchr v2.0.1 (*)
+│   ├── regex v1.0.1 (*)
+│   └── regex-syntax v0.6.0 (*)
+**├── ignore v0.4.2**
+│   ├── crossbeam v0.3.2
+**│   ├── globset v0.4.0**
+│   ├── lazy_static v1.0.0 (*)
+│   ├── log v0.4.1 (*)
+│   ├── memchr v2.0.1 (*)
+**│   ├── regex v1.0.1 (*)**
+**│   ├── same-file v1.0.2**
+**│   ├── thread_local v0.3.5 (*)**
+**│   └── walkdir v2.1.4**
+**│       └── same-file v1.0.2 (*)**
+├── lazy_static v1.0.0 (*)
+├── libc v0.2.40 (*)
+├── log v0.4.1 (*)
+├── memchr v2.0.1 (*)
+**├── memmap v0.6.2**
+│   └── libc v0.2.40 (*)
+├── num_cpus v1.8.0
+│   └── libc v0.2.40 (*)
+**├── regex v1.0.1 (*)**
+**├── same-file v1.0.2 (*)**
+**└── termcolor v0.3.6**
+[build-dependencies]
+**├── clap v2.31.2 (*)**
+└── lazy_static v1.0.0 (*)
+
