@@ -219,7 +219,7 @@ ripgrep v0.8.1
 
 │   └── unicode-width v0.1.4 (*)
 
-**├── encoding_rs v0.7.2**
+*├── encoding_rs v0.7.2*
 
 │   ├── cfg-if v0.1.3
 
@@ -243,7 +243,7 @@ ripgrep v0.8.1
 
 **│   └── regex v1.0.1**
 
-**│       ├── aho-corasick v0.6.4 (*)**
+│       ├── aho-corasick v0.6.4 (*)
 
 │       ├── memchr v2.0.1 (*)
 
