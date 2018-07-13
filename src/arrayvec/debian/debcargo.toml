@@ -1,0 +1,4 @@
+overlay = "."
+
+# The auto-generated summary is too long.
+summary = "Vector with fixed capacity, backed by an array"
