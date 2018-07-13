@@ -5,7 +5,9 @@ Source: https://github.com/servo/rust-url
 Files: *
 Copyright: 2013-2016 The rust-url developers
 License: MIT or Apache-2.0
-Comment: Part of Servo, a project sponsored by Mozilla.
+Comment:
+ Part of Servo, a project sponsored by Mozilla.
+ Copyright years reported as specified, not up to date.
 
 Files: debian/*
 Copyright:
