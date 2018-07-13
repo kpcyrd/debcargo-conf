@@ -147,7 +147,7 @@ Some versions might be out-of-date::
     time v0.1.40
     num-integer v0.1.38
     chrono v0.4.2
-    termcolor v0.3.6
+    - termcolor v0.3.6
     tempfile v3.0.2
     - serde_json v1.0.19
     serde_ignored v0.0.4
@@ -313,7 +313,7 @@ ripgrep v0.8.1
 
 *├── same-file v1.0.2 (*)*
 
-**└── termcolor v0.3.6**
+*└── termcolor v0.3.6*
 
 [build-dependencies]
 
