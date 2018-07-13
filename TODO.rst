@@ -255,7 +255,7 @@ ripgrep v0.8.1
 
 **├── globset v0.4.0**
 
-**│   ├── aho-corasick v0.6.4**
+*│   ├── aho-corasick v0.6.4*
 
 │   │   └── memchr v2.0.1
 
