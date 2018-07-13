@@ -116,7 +116,7 @@ dependencies of debcargo
 Roughly in dependency order, i.e. earlier packages have less dependencies.
 Some versions might be out-of-date::
 
-    same-file v1.0.2
+    - same-file v1.0.2
     walkdir v2.1.4
     - toml v0.4.6
     remove_dir_all v0.5.1
@@ -313,13 +313,13 @@ ripgrep v0.8.1
 
 **│   ├── regex v1.0.1 (*)**
 
-**│   ├── same-file v1.0.2**
+*│   ├── same-file v1.0.2*
 
 **│   ├── thread_local v0.3.5 (*)**
 
 **│   └── walkdir v2.1.4**
 
-**│       └── same-file v1.0.2 (*)**
+*│       └── same-file v1.0.2 (*)*
 
 ├── lazy_static v1.0.0 (*)
 
@@ -339,7 +339,7 @@ ripgrep v0.8.1
 
 **├── regex v1.0.1 (*)**
 
-**├── same-file v1.0.2 (*)**
+*├── same-file v1.0.2 (*)*
 
 **└── termcolor v0.3.6**
 
