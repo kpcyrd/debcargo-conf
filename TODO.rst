@@ -329,7 +329,7 @@ ripgrep v0.8.1
 
 ├── memchr v2.0.1 (*)
 
-**├── memmap v0.6.2**
+*├── memmap v0.6.2*
 
 │   └── libc v0.2.40 (*)
 
