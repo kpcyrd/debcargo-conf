@@ -1,0 +1,4 @@
+overlay = "."
+
+# Auto-generated summaries are too long.
+summary = "Compact binary serialization / deserialization library"
