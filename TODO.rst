@@ -73,6 +73,7 @@ all required dependencies are available in main::
     lazycell-1.0.0
     lazycell-0.6.0
     futures-0.1.23
+    gcc-0.3.54
 
 Base packages
 -------------
