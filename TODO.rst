@@ -70,6 +70,9 @@ all required dependencies are available in main::
     miniz-sys-0.1.10
     crossbeam-utils-0.3.2
     crossbeam-utils-0.4.1
+    lazycell-1.0.0
+    lazycell-0.6.0
+    futures-0.1.23
 
 Base packages
 -------------
