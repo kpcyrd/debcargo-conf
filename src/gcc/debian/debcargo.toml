@@ -1,0 +1,14 @@
+overlay = "."
+bin = false
+summary = "Assist Cargo build scripts in invoking GCC (legacy crate)"
+
+[packages.lib]
+
+description = """
+A simple library meant to be used as a build dependency with Cargo
+packages in order to build a set of C/C++ files into a static archive.
+
+This crate was renamed from "gcc" to "cc". This package is provided
+to satisfy existing dependencies. New projects should depend on the
+"cc" crate.
+"""
