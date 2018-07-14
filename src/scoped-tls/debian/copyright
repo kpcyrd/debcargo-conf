@@ -5,6 +5,7 @@ Source: https://github.com/alexcrichton/scoped-tls
 
 Files: *
 Copyright: 2014-2018 The Rust Project Developers
+ 2014-2018  Alex Crichton
 License: MIT or Apache-2.0
 
 Files: debian/*
