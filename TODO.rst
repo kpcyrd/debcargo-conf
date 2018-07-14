@@ -67,6 +67,7 @@ all required dependencies are available in main::
     string-0.1.0
     indexmap-1.0.1
     time-0.1.40
+    miniz-sys-0.1.10
 
 Base packages
 -------------
