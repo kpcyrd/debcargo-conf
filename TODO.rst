@@ -64,6 +64,9 @@ all required dependencies are available in main::
     safemem-0.2.1
     rand-core-0.2.1
     unicode-bidi-0.3.4
+    string-0.1.0
+    indexmap-1.0.1
+    time-0.1.40
 
 Base packages
 -------------
