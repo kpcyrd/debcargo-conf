@@ -1,0 +1,2 @@
+overlay = "."
+summary = "FLATE, Gzip, and Zlib bindings for Rust"
