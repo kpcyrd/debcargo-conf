@@ -5,8 +5,9 @@ Source: https://github.com/dguo/strsim-rs
 
 Files: *
 Copyright: Danny Guo <dannyguo91@gmail.com>
- Copyright (c) 2006-2009 Graydon Hoare
- Copyright (c) 2009-2013 Mozilla Foundation
+ 2016 Titus Wormer <tituswormer@gmail.com>
+ 2006-2009 Graydon Hoare
+ 2009-2013 Mozilla Foundation
 License: MIT
 
 Files: debian/*

@@ -4,7 +4,7 @@ Upstream-Contact: Danny Guo <dannyguo91@gmail.com>
 Source: https://github.com/dguo/strsim-rs
 
 Files: *
-Copyright: FIXME (overlay) UNKNOWN Danny Guo <dannyguo91@gmail.com>
+Copyright: FIXME (overlay) UNKNOWN-YEARS Danny Guo <dannyguo91@gmail.com>
 License: MIT
 Comment:
  FIXME (overlay): Since upstream copyright years are not available in
@@ -13,15 +13,18 @@ Comment:
  the archive.
 
 Files: ./LICENSE
-Copyright: 2016 Titus Wormer <tituswormer@gmail.com>
-License: UNKNOWN; FIXME (overlay)
+Copyright:
+ 2015 Danny Guo
+ 2016 Titus Wormer <tituswormer@gmail.com>
+License: UNKNOWN-LICENSE; FIXME (overlay)
 Comment:
  FIXME (overlay): These notices are extracted from files. Please review them
  before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 FIXME (overlay) Your Name <Your Email>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 FIXME (overlay) Your Name <Your Email>
 License: MIT
 
 License: MIT
@@ -42,6 +45,3 @@ License: MIT
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-
-
-
