@@ -68,6 +68,8 @@ all required dependencies are available in main::
     indexmap-1.0.1
     time-0.1.40
     miniz-sys-0.1.10
+    crossbeam-utils-0.3.2
+    crossbeam-utils-0.4.1
 
 Base packages
 -------------
