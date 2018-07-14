@@ -58,7 +58,11 @@ all required dependencies are available in main::
     cloudabi-0.0.3
     fuchsia-zircon-0.3.3
     redox_termios-0.1.1
-
+    memoffset-0.2.1
+    language-tags-0.2.2
+    winapi-0.2.8
+    safemem-0.2.1
+    rand-core-0.2.1
 
 
 Base packages
