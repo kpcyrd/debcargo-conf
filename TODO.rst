@@ -70,15 +70,11 @@ what to remove from the list if it's not longer necessary.
 
 "-" means already done, pending upload. When they get ACCEPTED you can rm from here::
 
-    - crossbeam-0.3.2
-    - foreign-types-shared-0.1.1
     lazycell-0.6.0
-    - quick-error-1.2.2
     quote-0.3.15
     regex-syntax-0.4.2
     regex-syntax-0.5.6
     - strsim-0.7.0
-    - version_check-0.1.3
     winapi-0.2.8
 
 dependencies of mdbook/exa
