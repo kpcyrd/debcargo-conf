@@ -44,6 +44,18 @@ The lists below are calculated using some combinations of running::
 from the ``debcargo.git`` repository.
 
 
+Ready for upload
+----------------
+
+These packages are prepared in the master branch and can be uploaded because
+all required dependencies are available in main::
+
+    num-integer-0.1.39
+    nodrop-0.1.12
+    humantime-1.1.1
+    try-lock-0.2.2
+
+
 Base packages
 -------------
 
