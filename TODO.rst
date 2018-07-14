@@ -54,6 +54,11 @@ all required dependencies are available in main::
     nodrop-0.1.12
     humantime-1.1.1
     try-lock-0.2.2
+    bitflags-0.9.1
+    cloudabi-0.0.3
+    fuchsia-zircon-0.3.3
+    redox_termios-0.1.1
+
 
 
 Base packages
