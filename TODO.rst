@@ -63,7 +63,7 @@ all required dependencies are available in main::
     winapi-0.2.8
     safemem-0.2.1
     rand-core-0.2.1
-
+    unicode-bidi-0.3.4
 
 Base packages
 -------------
