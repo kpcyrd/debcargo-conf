@@ -141,7 +141,6 @@ Some versions might be out-of-date::
     syn v0.14.2
     serde_derive v1.0.66
     semver v0.9.0
-    regex v1.0.0
     itertools v0.7.8
     unicode-bidi v0.3.4
     idna v0.1.4
@@ -267,7 +266,7 @@ ripgrep v0.8.1
 
 │   ├── memchr v2.0.1 (*)
 
-**│   └── regex v1.0.1**
+*│   └── regex v1.0.1*
 
 │       ├── aho-corasick v0.6.4 (*)
 
@@ -309,7 +308,7 @@ ripgrep v0.8.1
 
 │   ├── memchr v2.0.1 (*)
 
-**│   ├── regex v1.0.1 (*)**
+*│   ├── regex v1.0.1 (*)*
 
 *│   ├── same-file v1.0.2*
 
@@ -335,7 +334,7 @@ ripgrep v0.8.1
 
 │   └── libc v0.2.40 (*)
 
-**├── regex v1.0.1 (*)**
+*├── regex v1.0.1 (*)*
 
 *├── same-file v1.0.2 (*)*
 
