@@ -60,3 +60,8 @@ mkdir -p "$(dirname $BUILDDIR)"
 if [ -z "$CRATE" ]; then
 	abort 2 "Usage: $0 <crate> [<version>]"
 fi
+
+run_debcargo() {
+	rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-${PKGNAME}_$VER"*.orig.tar.*
+	$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$@" "$CRATE" "$VER"
+}

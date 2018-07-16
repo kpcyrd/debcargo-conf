@@ -40,8 +40,7 @@ if [ -n "$VER" -a "$(sed -ne 's/^semver_suffix\s*=\s*//p' "$PKGCFG")" != "true" 
 	fi
 fi
 
-rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-${PKGNAME}_$VER"*.orig.tar.*
-$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$CRATE" "$VER"
+run_debcargo
 
 if ! git diff --quiet -- "$PKGDIR_REL"; then
 	read -p "Update wrote some changes to $PKGDIR_REL, press enter to git diff..." x

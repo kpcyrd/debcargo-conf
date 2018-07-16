@@ -42,15 +42,38 @@ dch -m -r -D unstable ""
 git add debian/changelog
 )
 
-rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-${PKGNAME}_$VER"*.orig.tar.*
-$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" --changelog-ready "$CRATE" "$VER"
-
-if ! git diff --exit-code -- "$PKGDIR_REL"; then
+revert_git_changes() {
 	git reset
 	git checkout -- "$PKGDIR/debian/changelog"
 	git checkout "$PREVBRANCH"
 	git branch -d "$RELBRANCH"
+}
+
+if ! run_debcargo --changelog-ready; then
+	revert_git_changes
+	abort 1 "Release attempt failed to run debcargo, probably the package needs updating (./update.sh $*)"
+fi
+
+if ! git diff --exit-code -- "$PKGDIR_REL"; then
+	revert_git_changes
 	abort 1 "Release attempt resulted in git diffs to $PKGDIR_REL, probably the package needs updating (./update.sh $*)"
+fi
+
+check_build_deps() {
+	local success=true
+	sed -ne '/Build-Depends/,/^[^ ]/p' "build/$PKGNAME/debian/control" | \
+	grep -Eo 'librust-.*+.*-dev' | \
+	{ while read pkg; do
+		if [ $(apt-cache showpkg "$pkg" | grep ^Package: | wc -l) = 0 ]; then
+			echo >&2 "Build-Dependency not yet in debian: $pkg"
+			success=false
+		fi
+	done; $success; }
+}
+
+if ! check_build_deps; then
+	revert_git_changes
+	abort 1 "Release attempt detected build-dependencies not in Debian (see messages above), release those first."
 fi
 
 git commit -m "Release package $PKGNAME"
