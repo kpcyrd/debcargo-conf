@@ -4,7 +4,10 @@ Upstream-Contact: The Rust-Crypto Project Developers
 Source: https://github.com/RustCrypto/utils
 
 Files: *
-Copyright: 2016-2017 The Rust-Crypto Project Developers
+Copyright:
+ 2016-2017 The Rust-Crypto Project Developers
+ 2006-2009 Graydon Hoare
+ 2009-2013 Mozilla Foundation
 License: MIT or Apache-2.0
 
 Files: debian/*
