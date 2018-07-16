@@ -1,0 +1,7 @@
+overlay = "."
+
+[source]
+build_depends = ["libpcap-dev <!nocheck>"]
+
+[packages."librust-pcap-dev"]
+depends = ["libpcap-dev"]
