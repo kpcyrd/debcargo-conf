@@ -44,36 +44,30 @@ The lists below are calculated using some combinations of running::
 from the ``debcargo.git`` repository.
 
 
-Ready for upload
-----------------
+Ready for upload (Request For Sponsor)
+--------------------------------------
 
 These packages are prepared in the master branch and can be uploaded because
 all required dependencies are available in main::
 
-    num-integer-0.1.39
-    nodrop-0.1.12
-    humantime-1.1.1
-    try-lock-0.2.2
     bitflags-0.9.1
-    cloudabi-0.0.3
-    fuchsia-zircon-0.3.3
-    redox_termios-0.1.1
-    memoffset-0.2.1
-    language-tags-0.2.2
     winapi-0.2.8
     safemem-0.2.1
-    rand-core-0.2.1
-    unicode-bidi-0.3.4
-    string-0.1.0
-    indexmap-1.0.1
-    time-0.1.40
     miniz-sys-0.1.10
     crossbeam-utils-0.3.2
-    crossbeam-utils-0.4.1
-    lazycell-1.0.0
     lazycell-0.6.0
-    futures-0.1.23
     gcc-0.3.54
+
+infinity0: I've omitted the above for now since they are older versions, let's
+try to get the reverse-dependent crates using the latest versions of them.)
+
+infinity0: I've also omitted miniz-sys for now because it bundles an old
+version of miniz, and this should be discussed a bit further because it's not
+within normal Debian practise. See upstream issues:
+
+- https://github.com/alexcrichton/flate2-rs/issues/160
+- https://github.com/alexcrichton/flate2-rs/issues/143
+
 
 Base packages
 -------------

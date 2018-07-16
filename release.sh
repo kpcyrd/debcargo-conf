@@ -140,5 +140,6 @@ should revert what I just did. To do that, run:
 
   git checkout master && git branch -D $RELBRANCH
 
-Then ask a Debian Developer to re-run me ($0 $*) on your behalf.
+Then ask a Debian Developer to re-run me ($0 $*) on your behalf. Also add your
+crate to the "Ready for upload" list in TODO.rst so it's easy to track.
 eof
