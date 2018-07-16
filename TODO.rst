@@ -89,6 +89,7 @@ what to remove from the list if it's not longer necessary.
     regex-syntax-0.5.6
     - strsim-0.7.0
     winapi-0.2.8
+    ctrlc-3.1.1
 
 dependencies of mdbook/exa
 --------------------------
