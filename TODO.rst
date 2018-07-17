@@ -50,6 +50,10 @@ Ready for upload (Request For Sponsor)
 These packages are prepared in the master branch and can be uploaded because
 all required dependencies are available in main::
 
+    ctrlc-3.1.1
+
+Delayed/problematic::
+
     bitflags-0.9.1
     winapi-0.2.8
     safemem-0.2.1
@@ -89,7 +93,6 @@ what to remove from the list if it's not longer necessary.
     regex-syntax-0.5.6
     - strsim-0.7.0
     winapi-0.2.8
-    ctrlc-3.1.1
 
 dependencies of mdbook/exa
 --------------------------
