@@ -55,13 +55,13 @@ all required dependencies are available in main::
 
 Delayed/problematic::
 
-    bitflags-0.9.1
-    winapi-0.2.8
-    safemem-0.2.1
-    miniz-sys-0.1.10
-    crossbeam-utils-0.3.2
-    lazycell-0.6.0
-    gcc-0.3.54
+    bitflags-0.9.1 -- dependency of pulldown-cmark
+    winapi-0.2.8 -- dependency of mio, iovec, etc
+    safemem-0.2.1 -- dependency of base64 <- hyper
+    miniz-sys-0.1.10 -- dependency of flate2 <- cargo <- debcargo
+    crossbeam-utils-0.3.2 -- ???
+    lazycell-0.6.0 -- dependency of mio, cargo-0.27
+    gcc-0.3.54 -- ???
 
 infinity0: I've omitted the above for now since they are older versions, let's
 try to get the reverse-dependent crates using the latest versions of them.)
