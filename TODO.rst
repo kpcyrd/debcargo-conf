@@ -2,7 +2,6 @@
 Crates to package
 =================
 
-
 Eventual goals
 ==============
 
@@ -130,22 +129,21 @@ Some versions might be out-of-date::
 
     - same-file v1.0.2
     walkdir v2.1.4
-    remove_dir_all v0.5.1
+    ** remove_dir_all v0.5.1
     fuchsia-zircon v0.3.3
     rand v0.4.2
     tempdir v0.3.7
     filetime v0.2.1
     tar v0.4.15
-    quote v0.6.3
+    - quote v0.6.3
     syn v0.14.2
     serde_derive v1.0.66
     semver v0.9.0
     itertools v0.7.8
-    unicode-bidi v0.3.4
+    - unicode-bidi v0.3.4
     idna v0.1.4
     url v1.7.0
     openssl-sys v0.9.32
-    - log v0.4.1 (waiting for cfg-id to be ACCEPTED)
     cmake v0.1.31
     libz-sys v1.0.18
     libssh2-sys v0.2.7
@@ -163,13 +161,12 @@ Some versions might be out-of-date::
     backtrace v0.3.8
     failure v0.1.1
     - textwrap v0.9.0
-    - strsim v0.7.0
-    redox_termios v0.1.1
+    - redox_termios v0.1.1
     termion v1.5.1
     atty v0.2.10
     clap v2.31.2
-    time v0.1.40
-    num-integer v0.1.38
+    - time v0.1.40
+    - num-integer v0.1.38
     chrono v0.4.2
     - termcolor v0.3.6
     tempfile v3.0.2
@@ -180,13 +177,12 @@ Some versions might be out-of-date::
     lazycell v0.6.0
     jobserver v0.1.11
     regex-syntax v0.5.6
-    regex v0.2.11
+    regex v0.2.11 -- largely compatible with regex 1, try patching Cargo.toml to use latter
     - globset v0.4.0
     - crossbeam v0.3.2
     ignore v0.4.2
     home v0.3.3
     winapi v0.2.8
-    schannel v0.1.12
     kernel32-sys v0.2.2
     curl v0.4.12
     git2-curl v0.8.1
