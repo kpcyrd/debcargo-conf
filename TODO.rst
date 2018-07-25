@@ -28,6 +28,10 @@ Current output (on 2018-07-08) is:
 - varlink
 - varlink-cli
 
+Sccache is also helpful for reducing the build-time of things like firefox and thunderbird
+
+- sccache https://github.com/mozilla/sccache
+
 There are also more binaries here:
 
 https://github.com/rust-unofficial/awesome-rust
