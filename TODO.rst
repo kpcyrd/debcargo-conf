@@ -94,7 +94,6 @@ what to remove from the list if it's not longer necessary.
     quote-0.3.15
     regex-syntax-0.4.2
     regex-syntax-0.5.6
-    - strsim-0.7.0
     winapi-0.2.8
 
 dependencies of mdbook/exa
@@ -130,7 +129,6 @@ dependencies of debcargo
 Roughly in dependency order, i.e. earlier packages have less dependencies.
 Some versions might be out-of-date::
 
-    - same-file v1.0.2
     walkdir v2.1.4
     ** remove_dir_all v0.5.1
     fuchsia-zircon v0.3.3
@@ -169,7 +167,6 @@ Some versions might be out-of-date::
     atty v0.2.10
     clap v2.31.2
     - time v0.1.40
-    - num-integer v0.1.38
     chrono v0.4.2
     - termcolor v0.3.6
     tempfile v3.0.2
@@ -233,8 +230,7 @@ ripgrep v0.8.1
 
 │   ├── bitflags v1.0.3
 
-*│   ├── strsim v0.7.0*
-
+│   ├── strsim v0.7.0
 
 │   ├── textwrap v0.9.0
 
@@ -264,7 +260,7 @@ ripgrep v0.8.1
 
 │   ├── memchr v2.0.1 (*)
 
-*│   └── regex v1.0.1*
+│   └── regex v1.0.1
 
 │       ├── aho-corasick v0.6.4 (*)
 
@@ -306,15 +302,15 @@ ripgrep v0.8.1
 
 │   ├── memchr v2.0.1 (*)
 
-*│   ├── regex v1.0.1 (*)*
+│   ├── regex v1.0.1 (*)
 
-*│   ├── same-file v1.0.2*
+│   ├── same-file v1.0.2
 
 │   ├── thread_local v0.3.5 (*)
 
 **│   └── walkdir v2.1.4**
 
-*│       └── same-file v1.0.2 (*)*
+│       └── same-file v1.0.2 (*)
 
 ├── lazy_static v1.0.0 (*)
 
@@ -332,9 +328,9 @@ ripgrep v0.8.1
 
 │   └── libc v0.2.40 (*)
 
-*├── regex v1.0.1 (*)*
+├── regex v1.0.1 (*)
 
-*├── same-file v1.0.2 (*)*
+├── same-file v1.0.2 (*)
 
 *└── termcolor v0.3.6*
 
