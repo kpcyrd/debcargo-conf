@@ -54,6 +54,7 @@ These packages are prepared in the master branch and can be uploaded because
 all required dependencies are available in main::
 
     shared-child-0.3.3
+    os-pipe-0.6.2
 
 Delayed/problematic::
 
