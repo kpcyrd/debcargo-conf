@@ -55,7 +55,6 @@ all required dependencies are available in main::
 
     shared-child-0.3.3
     os-pipe-0.6.2
-    arrayvec-0.4.7
 
 Delayed/problematic::
 
