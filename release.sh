@@ -65,7 +65,7 @@ check_build_deps() {
 	grep -Eo 'librust-.*+.*-dev' | \
 	{ while read pkg; do
 		if [ $(apt-cache showpkg "$pkg" | grep ^Package: | wc -l) = 0 ]; then
-			echo >&2 "Build-Dependency not yet in debian: $pkg (don't forget to 'apt update')"
+			echo >&2 "Build-Dependency not yet in debian: $pkg (don't forget to '{apt,cargo} update')"
 			success=false
 		fi
 	done; $success; }
