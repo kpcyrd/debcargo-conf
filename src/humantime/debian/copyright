@@ -3,7 +3,11 @@ Upstream-Name: humantime
 Upstream-Contact: Paul Colomiets <paul@colomiets.name>
 
 Files: *
-Copyright: 2016-2018 Paul Colomiets <paul@colomiets.name>
+Copyright:
+ 2016-2018 Paul Colomiets <paul@colomiets.name>
+ 2016 The humantime Developers
+ 2016 Pyfisch
+ 2005-2013 Rich Felker
 License: MIT or Apache-2.0
 
 Files: debian/*

@@ -4,7 +4,9 @@ Upstream-Contact: Sean McArthur <sean@seanmonstar.com>
 Source: https://github.com/seanmonstar/try-lock
 
 Files: *
-Copyright: 2018 Sean McArthur <sean@seanmonstar.com>
+Copyright:
+ 2018 Sean McArthur <sean@seanmonstar.com>
+ 2016 Alex Crichton <alex@alexcrichton.com>
 License: MIT
 
 Files: debian/*
