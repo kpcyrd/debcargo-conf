@@ -1,7 +1,9 @@
+# -*- mode: sh -*-
 set -e
 
 abort() { local x=$1; shift; for i in "$@"; do echo >&2 "$0: abort: $i"; done; exit "$x"; }
 
+mkdir -p "$(dirname "$0")/.git/hooks"
 HOOK_COMMIT="$(dirname "$0")/.git/hooks/pre-commit"
 if [ ! -x "$HOOK_COMMIT" ]; then
 cat <<'eof' >"$HOOK_COMMIT"
