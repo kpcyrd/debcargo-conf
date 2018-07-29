@@ -53,8 +53,7 @@ Ready for upload (Request For Sponsor)
 These packages are prepared in the master branch and can be uploaded because
 all required dependencies are available in main::
 
-    idna
-    ar
+    (none currently)
 
 Delayed/problematic::
 
@@ -130,9 +129,8 @@ dependencies of debcargo
 Roughly in dependency order, i.e. earlier packages have less dependencies.
 Some versions might be out-of-date::
 
-    walkdir v2.1.4
+    - walkdir v2.1.4
     ** remove_dir_all v0.5.1
-    fuchsia-zircon v0.3.3
     rand v0.4.2
     tempdir v0.3.7
     filetime v0.2.1
