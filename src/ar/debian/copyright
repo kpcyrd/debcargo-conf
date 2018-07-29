@@ -1,22 +1,17 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: idna
-Source: https://github.com/servo/rust-url/tree/master/idna
-Comment: Part of Servo, a project sponsored by Mozilla.
+Upstream-Name: ar
+Upstream-Contact: Matthew D. Steele <mdsteele@alum.mit.edu>
+Source: https://github.com/mdsteele/rust-ar
 
 Files: *
-Copyright: 2013-2016 The rust-url developers
-License: Expat or Apache-2.0
-Comment: Copyright years reported as specified by upstream, not up to date.
+Copyright: 2017-2018 Matthew D. Steele <mdsteele@alum.mit.edu>
+License: Expat
 
 Files: debian/*
 Copyright:
  2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
  2018 Paride Legovini <pl@ninthfloor.org>
-License: Expat or Apache-2.0
-
-License: Apache-2.0
- Debian systems provide the Apache 2.0 license in
- /usr/share/common-licenses/Apache-2.0
+License: Expat
 
 License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a copy
