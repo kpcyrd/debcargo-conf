@@ -4,7 +4,9 @@ Upstream-Contact: Jeremy Soller <jackpot51@gmail.com>
 Source: https://github.com/redox-os/termios
 
 Files: *
-Copyright: 2017 Jeremy Soller <jackpot51@gmail.com>
+Copyright:
+ 2017 Jeremy Soller <jackpot51@gmail.com>
+ 2017 Redox OS
 License: MIT
 
 Files: debian/*
