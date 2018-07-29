@@ -1,7 +1,4 @@
 overlay = "."
 
-[source]
-build_depends = ["libseccomp-dev <!nocheck>"]
-
-[packages."librust-seccomp-sys-dev"]
+[packages.lib]
 depends = ["libseccomp-dev"]
