@@ -125,6 +125,8 @@ Build the package if necessary, and upload
 If the source package is already in Debian and this version does not introduce
 new binaries, then you can just go ahead and directly dput the source package.
 
+  cd build
+  debsign ${DEBSRC}_${DEBVER}_source.changes
   dput ${DEBSRC}_${DEBVER}_source.changes
 
 If this is a NEW source package or introduces NEW binary packages not already
