@@ -38,6 +38,17 @@ to run additional commands after this - more specific instructions are given to
 you about this, by the script after you run it.
 
 
+DD instructions
+===============
+
+To set up a suitable build environment for ``./release.sh``:
+
+  $ apt-get install devscripts reprepro
+  $ sudo sbuild-createchroot --include=eatmydata,ccache,gnupg,dh-cargo,cargo,lintian \
+      --chroot-prefix debcargo-unstable unstable \
+      /srv/chroot/debcargo-unstable-amd64-sbuild http://deb.debian.org/debian
+
+
 NEWS
 ====
 

@@ -102,6 +102,9 @@ PKGNAME=$($DEBCARGO deb-src-name "$CRATE" $VER || abort 1 "couldn't find crate $
 DEBVER=$(dpkg-parsechangelog -l $PKGNAME/debian/changelog -SVersion)
 DEBSRC=$(dpkg-parsechangelog -l $PKGNAME/debian/changelog -SSource)
 DEB_HOST_ARCH=$(dpkg-architecture -q DEB_HOST_ARCH)
+if [ -z "$CHROOT" ] && schroot -i -c "debcargo-unstable-${DEB_HOST_ARCH}-sbuild" >/dev/null 2>&1; then
+	CHROOT="debcargo-unstable-${DEB_HOST_ARCH}-sbuild"
+fi
 
 sbuild --no-source --arch-any --arch-all ${CHROOT:+-c $CHROOT }${DISTRIBUTION:+-d $DISTRIBUTION }${DEBSRC}_${DEBVER}.dsc
 changestool ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes adddsc ${DEBSRC}_${DEBVER}.dsc
@@ -132,8 +135,8 @@ recommended way is to run something like:
   ./sbuild-and-sign.sh $CRATE $VER
   dput ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
 
-See https://wiki.debian.org/sbuild for instructions on how to set it up. The
-other tools are from the 'devscripts' package.
+This assumes you followed the "DD instructions" in README.rst, for setting up
+a build environment for release.
 
 If the build fails e.g. due to missing Build-Dependencies you should revert
 what I did (see below) and package those missing Build-Dependencies first.
