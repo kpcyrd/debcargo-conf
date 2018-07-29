@@ -1,3 +1,5 @@
+overlay = "."
+
 [source]
 build_depends = ["libssl-dev <!nocheck>"]
 
