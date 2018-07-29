@@ -141,7 +141,7 @@ Some versions might be out-of-date::
     semver v0.9.0
     itertools v0.7.8
     - unicode-bidi v0.3.4
-    idna v0.1.4
+    - idna v0.1.4
     url v1.7.0
     openssl-sys v0.9.32
     cmake v0.1.31
@@ -162,7 +162,7 @@ Some versions might be out-of-date::
     failure v0.1.1
     - textwrap v0.9.0
     - redox_termios v0.1.1
-    termion v1.5.1
+    - termion v1.5.1
     atty v0.2.10
     clap v2.31.2
     - time v0.1.40

@@ -1,3 +1,4 @@
+overlay = "."
 excludes = ["libssh2/**"]
 
 # zlib1g-dev is only needed because libssh2-1-dev incorrectly omits it, TB fixed

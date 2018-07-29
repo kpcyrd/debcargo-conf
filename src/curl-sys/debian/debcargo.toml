@@ -1,3 +1,4 @@
+overlay = "."
 excludes = ["curl/**"]
 
 [packages.lib]
