@@ -3,8 +3,8 @@
 # You need to have an up-to-date APT cache for Debian unstable.
 set -e
 
-while read crate; do
+while read crate ver; do
 	pkg="${crate//_/-}"
-	numpkg="$(apt-cache showsrc --only-source rust-"$pkg" 2>/dev/null | grep Package: | wc -l)"
-	echo "$crate $numpkg"
+	numpkg="$(apt-cache showpkg librust-"${pkg}${ver:+-$ver}"+default-dev 2>/dev/null | grep ^Package: | wc -l)"
+	echo "$crate $ver $numpkg"
 done
