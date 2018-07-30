@@ -67,5 +67,5 @@ fi
 
 run_debcargo() {
 	rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-${PKGNAME}_$VER"*.orig.tar.*
-	$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$@" "$CRATE" "$VER"
+	$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$@" "$CRATE" "${REALVER:-$VER}"
 }
