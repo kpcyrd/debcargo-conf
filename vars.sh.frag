@@ -35,7 +35,7 @@ fi
 test -x "$DEBCARGO" || abort 1 "debcargo found but not executable: $DEBCARGO"
 dcver=$($DEBCARGO --version | sed -ne 's/debcargo //p')
 case $dcver in
-2.0.*|2.1.*|2.2.[0123]|2.2.[0123]-*)	abort 1 "unsupported debcargo version $dcver. try reinstalling with \`cargo install debcargo --force\`";;
+2.0.*|2.1.*|2.2.[01234]|2.2.[01234]-*)	abort 1 "unsupported debcargo version $dcver. try reinstalling with \`cargo install debcargo --force\`";;
 2.2.*)	true;;
 *)	abort 1 "unsupported debcargo version: $dcver";;
 esac
@@ -68,4 +68,10 @@ fi
 run_debcargo() {
 	rm -rf "$BUILDDIR" "$(dirname "$BUILDDIR")/rust-${PKGNAME}_$VER"*.orig.tar.*
 	$DEBCARGO package --config "$PKGCFG" --directory "$BUILDDIR" "$@" "$CRATE" "${REALVER:-$VER}"
+}
+
+shouldbuild() {
+	local dst="$1"
+	local src="$2"
+	test ! -e "$dst" -o "$src" -nt "$dst"
 }
