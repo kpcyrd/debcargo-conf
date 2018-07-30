@@ -43,7 +43,7 @@ fi
 run_debcargo
 
 if ! git diff --quiet -- "$PKGDIR_REL"; then
-	read -p "Update wrote some changes to $PKGDIR_REL, press enter to git diff..." x
+	read -p "Update wrote some changes to $PKGDIR_REL, press enter to git diff..." x || true
 	git diff -- "$PKGDIR_REL"
 	echo >&2 "-- end of git diff --"
 fi
@@ -79,10 +79,20 @@ If there was a \`git diff\` above, check it to see if debcargo made changes to
 any auto-generated hint files. If so, you should make the equivalent changes to
 the non-hint files, and git-add these too.
 
-When satisfied with the output, you can commit and push all your changes. Then,
-ask a Debian Developer to run \`./release.sh $*\` to finalise your changes in
-the changelog and build a release-ready .dsc in build/. Assuming it runs
-successfully, they may \`dput\` the results afterwards. If you're not a Debian
-Developer and are unable to upload, please don't run that script because it
-will add inaccurate commits to git stating that the package has been uploaded.
+You can test-build your package by running:
+
+  cd build && ./build.sh $CRATE $VER
+
+This assumes that you have set up sbuild; see "DD instructions" in README.rst
+for details. Try to fix any lintian errors, but note that some errors are due
+to lintian being out-of-date and/or are expected at this stage of the process
+(e.g. bad-distribution-in-changes-file). Ask on IRC when in doubt.
+
+When satisfied with the output (both of debcargo after running ./update.sh, and
+of lintian after running ./build.sh), you can commit and push all your changes.
+
+Then, ask a Debian Developer to run \`./release.sh $*\`. This finalises your
+changes in the changelog, and allows them to build and upload the package. If
+you're not a Debian Developer and are unable to upload, please don't run that
+script or else you will need to revert the changes that it makes to your git.
 eof

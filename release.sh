@@ -12,6 +12,9 @@ abort 1 "You have other pending changes to git, please complete it or stash it a
 git diff --quiet -- "$PKGDIR_REL" || \
 abort 1 "Please git-add your changes to $PKGDIR_REL before running"
 
+type dch >/dev/null || \
+abort 1 "Install devscripts, we need to run dch."
+
 RELBRANCH="pending-$PKGNAME"
 git fetch origin --prune
 
@@ -59,61 +62,15 @@ if ! git diff --exit-code -- "$PKGDIR_REL"; then
 	abort 1 "Release attempt resulted in git diffs to $PKGDIR_REL, probably the package needs updating (./update.sh $*)"
 fi
 
-check_build_deps() {
-	local success=true
-	sed -ne '/Build-Depends/,/^[^ ]/p' "build/$PKGNAME/debian/control" | \
-	grep -Eo 'librust-.*+.*-dev' | \
-	{ while read pkg; do
-		if [ $(apt-cache showpkg "$pkg" | grep ^Package: | wc -l) = 0 ]; then
-			echo >&2 "Build-Dependency not yet in debian: $pkg (don't forget to '{apt,cargo} update')"
-			success=false
-		fi
-	done; $success; }
-}
-
-if ! check_build_deps; then
+if ! ( cd build && SOURCEONLY=1 ./build.sh "$CRATE" $VER ); then
 	revert_git_changes
 	abort 1 "Release attempt detected build-dependencies not in Debian (see messages above), release those first."
 fi
 
 git commit -m "Release package $PKGNAME"
 
-( cd "$BUILDDIR" && dpkg-buildpackage -d -S --no-sign )
-
-cat >"$BUILDDIR/../sbuild-and-sign.sh" <<'eof'
-#!/bin/sh
-set -e
-
-if [ -n "$DEBCARGO" ]; then
-	true
-elif which debcargo >/dev/null; then
-	DEBCARGO=$(which debcargo)
-elif [ -f "$HOME/.cargo/bin/debcargo" ]; then
-	DEBCARGO="$HOME/.cargo/bin/debcargo"
-else
-	abort 1 "debcargo not found, run \`cargo install debcargo\` or set DEBCARGO to point to it"
-fi
-
-CRATE="$1"
-VER="$2"
-DISTRIBUTION="${DISTRIBUTION:-unstable}"
-
-PKGNAME=$($DEBCARGO deb-src-name "$CRATE" $VER || abort 1 "couldn't find crate $CRATE")
-DEBVER=$(dpkg-parsechangelog -l $PKGNAME/debian/changelog -SVersion)
-DEBSRC=$(dpkg-parsechangelog -l $PKGNAME/debian/changelog -SSource)
-DEB_HOST_ARCH=$(dpkg-architecture -q DEB_HOST_ARCH)
-if [ -z "$CHROOT" ] && schroot -i -c "debcargo-unstable-${DEB_HOST_ARCH}-sbuild" >/dev/null 2>&1; then
-	CHROOT="debcargo-unstable-${DEB_HOST_ARCH}-sbuild"
-fi
-
-sbuild --no-source --arch-any --arch-all ${CHROOT:+-c $CHROOT }${DISTRIBUTION:+-d $DISTRIBUTION }${DEBSRC}_${DEBVER}.dsc
-changestool ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes adddsc ${DEBSRC}_${DEBVER}.dsc
-debsign ${DEBSIGN_KEYID:+-k $DEBSIGN_KEYID }--no-re-sign ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
-eof
-chmod +x "$BUILDDIR/../sbuild-and-sign.sh"
-
-DEBVER=$(dpkg-parsechangelog -l build/$PKGNAME/debian/changelog -SVersion)
-DEBSRC=$(dpkg-parsechangelog -l build/$PKGNAME/debian/changelog -SSource)
+DEBVER=$(dpkg-parsechangelog -l $BUILDDIR/debian/changelog -SVersion)
+DEBSRC=$(dpkg-parsechangelog -l $BUILDDIR/debian/changelog -SSource)
 DEB_HOST_ARCH=$(dpkg-architecture -q DEB_HOST_ARCH)
 cat >&2 <<eof
 Release of $CRATE ready as a source package in ${BUILDDIR#$PWD/}. You need to
@@ -125,17 +82,13 @@ Build the package if necessary, and upload
 If the source package is already in Debian and this version does not introduce
 new binaries, then you can just go ahead and directly dput the source package.
 
-  cd build
-  debsign ${DEBSRC}_${DEBVER}_source.changes
-  dput ${DEBSRC}_${DEBVER}_source.changes
+  cd build && dput ${DEBSRC}_${DEBVER}_source.changes
 
 If this is a NEW source package or introduces NEW binary packages not already
 in the Debian archive, you will need to build a binary package out of it. The
 recommended way is to run something like:
 
-  cd build
-  ./sbuild-and-sign.sh $CRATE $VER
-  dput ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
+  cd build && ./build.sh $CRATE $VER && dput ${DEBSRC}_${DEBVER}_${DEB_HOST_ARCH}.changes
 
 This assumes you followed the "DD instructions" in README.rst, for setting up
 a build environment for release.

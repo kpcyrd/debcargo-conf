@@ -8,5 +8,5 @@ grep " 0$" | \
 cut '-d ' -f1 | \
 while read crate; do
 	pkg="${crate//_/-}"
-	head -n1 src/$pkg/debian/changelog
+	sed -nre "s/.*Package (.*) .* from crates.io.*/\1/gp" src/$pkg/debian/changelog | head -n1
 done
