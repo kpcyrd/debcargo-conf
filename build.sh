@@ -52,7 +52,7 @@ check_build_deps() {
 		apt-cache dumpavail | \
 		sed -e 's/Package: .*/\0\nStatus: install ok installed/g' > dpkg-dummy/status
 	fi
-	cd "$PKGNAME" && dpkg-checkbuilddeps --admindir=../dpkg-dummy
+	( cd "$PKGNAME" && dpkg-checkbuilddeps --admindir=../dpkg-dummy )
 }
 
 if ! check_build_deps; then
