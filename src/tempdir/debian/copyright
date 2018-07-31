@@ -11,6 +11,7 @@ Files: debian/*
 Copyright:
  2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
  2018 Nicolas Braud-Santoni <nicolas@braud-santoni.eu>
+ 2018 Ximin Luo <infinity0@debian.org>
 License: Apache-2.0 or Expat
 
 License: Apache-2.0

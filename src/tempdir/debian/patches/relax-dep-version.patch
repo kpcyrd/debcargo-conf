@@ -1,0 +1,11 @@
+--- Cargo.toml.orig	2018-07-31 00:54:48.147491319 -0700
++++ Cargo.toml	2018-07-31 00:54:25.955283957 -0700
+@@ -23,7 +23,7 @@
+ license = "MIT/Apache-2.0"
+ repository = "https://github.com/rust-lang/tempdir"
+ [dependencies.rand]
+-version = "0.4"
++version = "< 0.6, >= 0.4"
+ 
+ [dependencies.remove_dir_all]
+ version = "0.5"
