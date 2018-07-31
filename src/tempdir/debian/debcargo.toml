@@ -1,1 +1,14 @@
 overlay = "."
+
+(Syntax error to prevent ./update.sh from working)
+
+Debian maintainer's note:
+
+This is deprecated in favour of the tempfile crate, and we should be able to
+avoid packaging it. Currently the only things known to depend on it are:
+
+debcargo/Cargo.toml:[dependencies.tempdir]
+native-tls-0.1.5/Cargo.toml:[target."cfg(any(target_os = \"macos\", target_os = \"ios\"))".dependencies.tempdir]
+sccache/Cargo.toml:[dependencies.tempdir]
+
+These can either be patched out or updated to use tempfile

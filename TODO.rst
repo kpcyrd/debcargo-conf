@@ -129,14 +129,13 @@ dependencies of debcargo
 Roughly in dependency order, i.e. earlier packages have less dependencies.
 Some versions might be out-of-date::
 
-    tempdir v0.3.7
-    tar v0.4.15
+    - tar v0.4.15
     - quote v0.6.3
     syn v0.14.2
     serde_derive v1.0.66
     semver v0.9.0
     itertools v0.7.8
-    url v1.7.0
+    - url v1.7.0
     cmake v0.1.31
     libz-sys v1.0.18
     libssh2-sys v0.2.7
@@ -153,7 +152,7 @@ Some versions might be out-of-date::
     backtrace-sys v0.1.23
     backtrace v0.3.8
     failure v0.1.1
-    atty v0.2.10
+    - atty v0.2.10
     clap v2.31.2
     chrono v0.4.2
     tempfile v3.0.2
