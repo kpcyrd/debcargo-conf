@@ -154,8 +154,8 @@ Some versions might be out-of-date::
     failure v0.1.1
     - atty v0.2.10
     clap v2.31.2
-    chrono v0.4.2
-    tempfile v3.0.2
+    - chrono v0.4.2
+    - tempfile v3.0.2
     serde_ignored v0.0.4
     socket2 v0.3.6
     miow v0.3.1
