@@ -64,7 +64,9 @@ fi
 
 if ! ( cd build && SOURCEONLY=1 ./build.sh "$CRATE" $VER ); then
 	revert_git_changes
-	abort 1 "Release attempt detected build-dependencies not in Debian (see messages above), release those first."
+	abort 1 "Release attempt failed (see messages above), possible reasons are: " \
+		"- build-dependencies not in Debian => release those first." \
+		"- packaged version is out-of-date => run \`./update.sh $*\`"
 fi
 
 git commit -m "Release package $PKGNAME"
